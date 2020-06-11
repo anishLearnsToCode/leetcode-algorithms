@@ -1,10 +1,6 @@
 // https://leetcode.com/problems/longest-common-prefix/
 
 public class LongestCommonPrefix {
-    public static void main(String[] args) {
-
-    }
-
     public String longestCommonPrefix(String[] array) {
         if (array.length == 0) {
             return "";
