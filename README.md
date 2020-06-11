@@ -5,8 +5,8 @@
 |:--------:|------|:----------:|:--------:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/TwoSum.java) | 
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseInteger.java) |
-| 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | |
-| 2 | []() | Easy | |
+| 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PalindromeNumber.java) |
+| 2 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | |
 | 2 | []() | Easy | |
 | 2 | []() | Easy | |
 | 2 | []() | Easy | |
