@@ -23,7 +23,7 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveElement.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/remove_element.py)|
 | 28 | [Needle in Haystack](https://leetcode.com/problems/implement-strstr) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/NeedleInHaystack.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/needle_in_haystack.py)|
 | 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
-| 2 | []() | Easy | |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
 | 2 | []() | Easy | |
 | 2 | []() | Easy | |
 | 2 | []() | Easy | |
