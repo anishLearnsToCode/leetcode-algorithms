@@ -212,48 +212,53 @@
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | Easy | |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color) | Easy | |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
+| 806 | [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string) | Easy | |
+| 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count) | Easy | |
+| 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | Easy | |
+| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word) | Easy | |
+| 821 | [Shortest Distance to Character](https://leetcode.com/problems/shortest-distance-to-a-character) | Easy | |
+| 824 | [Goat Latin](https://leetcode.com/problems/goat-latin) | Easy | |
+| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) | Easy | |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | Easy | |
+| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) | Easy | |
+| 840 | [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid) | Easy | |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | |
+| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person) | Easy | |
+| 852 | [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | Easy | |
+| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | Easy | |
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | Easy | |
+| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | Easy | |
+| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | Easy | |
+| 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | Easy | |
+| 874 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | Easy | |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Easy | |
+| 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes) | Easy | |
+| 884 | [Uncommon Words from 2 Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | Easy | |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap) | Easy | |
+| 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes) | Easy | |
+| 893 | [Groups of Special Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings) | Easy | |
+| 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | Easy | |
+| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree) | Easy | |
+| 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | |
+| 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | Easy | |
+| 914 | [X of a kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards) | Easy | |
+| 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | Easy | |
+| 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | Easy | |
+| 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | Easy | |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | Easy | |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | Easy | |
+| 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | Easy | |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | Easy | |
+| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | Easy | |
+| 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | Easy | |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | Easy | |
+| 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | Easy | |
+| 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | Easy | |
+| 961 | [N-Repeated Elements in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | Easy | |
+| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | Easy | |
+| 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers) | Easy | |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | Easy | |
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | Easy | |
+| 985 | [Sum of Even Numbers after Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | Easy | |
+| 989 | [Add to Array Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) | Easy | |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree) | Easy | |
