@@ -3,9 +3,9 @@
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/anishLearnsToCode/leetcode-algorithms)
 ![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-12/424-1abc9c.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-12/424-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-2/424-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-12/1412-1abc9c.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-12/1412-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-2/1412-1abc9c.svg)
 [![license](https://img.shields.io/badge/LICENSE-MIT-<COLOR>.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
