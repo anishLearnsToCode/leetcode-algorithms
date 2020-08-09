@@ -62,3 +62,130 @@
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy |
+| 206 | [Reverse Linked Lists](https://leetcode.com/problems/reverse-linked-list) | Easy |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | Easy |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | Easy |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two) | Easy |
+| 232 | [Implement Queue Using Stacks]() | Easy |
+| 234 | [Palindrome Linked Lists](https://leetcode.com/problems/palindrome-linked-list) | Easy |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Easy |
+| 237 | [Delete a Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Easy |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy |
+| 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance) | Easy |
+| 246 | [Strobogramatic Number](https://leetcode.com/problems/strobogrammatic-number) | Easy |
+| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) | Easy | |
+| 256 | [Paint House](https://leetcode.com/problems/paint-house) | Easy | |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | |
+| 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | |
+| 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value) | Easy | |
+| 276 | [Paint Fence](https://leetcode.com/problems/paint-fence) | Easy | |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | Easy | |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | Easy | |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game) | Easy | |
+| 293 | [Flip Game](https://leetcode.com/problems/flip-game) | Easy | |
+| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | Easy | |
+| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | Easy | |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | Easy | |
+| 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum) | Easy | |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four) | Easy | |
+| 344 | [Reverse A String](https://leetcode.com/problems/reverse-string) | Easy | |
+| 345 | [Reverse Vowels of A String](https://leetcode.com/problems/reverse-vowels-of-a-string) | Easy | |
+| 346 | [Moving Average From Data Stream](https://leetcode.com/problems/moving-average-from-data-stream) | Easy | |
+| 349 | [Intersection of 2 Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | |
+| 350 | [Intersection of 2 Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Easy | |
+| 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter) | Easy | |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | Easy | |
+| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) | Easy | |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | |
+| 387 | [First Unique Character in String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch) | Easy | |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | Easy | |
+| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Easy | |
+| 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation) | Easy | |
+| 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | Easy | |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | Easy | |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number) | Easy | |
+| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | Easy | |
+| 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square) | Easy | |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | Easy | |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins) | Easy | |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression) | Easy | |
+| 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs) | Easy | |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | Easy | |
+| 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | Easy | |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | |
+| 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | Easy | |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | Easy | |
+| 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter) | Easy | |
+| 475 | [Heaters](https://leetcode.com/problems/heaters) | Easy | |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | Easy | |
+| 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | Easy | |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | |
+| 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | Easy | |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | Easy | |
+| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | Easy | |
+| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | |
+| 504 | [Base 7](https://leetcode.com/problems/base-7) | Easy | |
+| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks) | Easy | |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | |
+| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | Easy | |
+| 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Easy | |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Easy | |
+| 532 | [K - Diff Pairs in Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | Easy | |
+| 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) | Easy | |
+| 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii) | Easy | |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | |
+| 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i) | Easy | |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | |
+| 559 | [Maximum Depth of N-Ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | Easy | |
+| 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i) | Easy | |
+| 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | Easy | |
+| 566 | [Reshape The Matrix](https://leetcode.com/problems/reshape-the-matrix) | Easy | |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | Easy | |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies) | Easy | |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) | Easy | |
+| 589 | [N-Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal) | Easy | |
+| 590 | [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) | Easy | |
+| 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | Easy | |
+| 598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii) | Easy | |
+| 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | Easy | |
+| 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator) | Easy | |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
