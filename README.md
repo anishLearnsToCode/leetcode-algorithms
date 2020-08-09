@@ -262,3 +262,54 @@
 | 985 | [Sum of Even Numbers after Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | Easy | |
 | 989 | [Add to Array Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) | Easy | |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree) | Easy | |
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) | Easy | |
+| 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook) | Easy | |
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | Easy | |
+| 1005 | [Maximize Sum of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations) | Easy | |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | Easy | |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | Easy | |
+| 1013 | [Partition Array into Three Parts with equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum) | Easy | |
+| 1018 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5) | Easy | |
+| 1021 | [Remove Outermost Parenthesis](https://leetcode.com/problems/remove-outermost-parentheses) | Easy | |
+| 1022 | [Sum of Root to Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers) | Easy | |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game) | Easy | |
+| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling) | Easy | |
+| 1030 | [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order) | Easy | |
+| 1033 | [Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive) | Easy | |
+| 1037 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang) | Easy | |
+| 1042 | [Flower Planting with no Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent) | Easy | |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | Easy | |
+| 1047 | [Remove All adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | Easy | |
+| 1051 | [Height Checker](https://leetcode.com/problems/height-checker) | Easy | |
+| 1056 | [Confusing Number](https://leetcode.com/problems/confusing-number) | Easy | |
+| 1064 | [Fixed Point](https://leetcode.com/problems/fixed-point) | Easy | |
+| 1065 | [Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string) | Easy | |
+| 1071 | [Greatest Common Divisors of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) | Easy | |
+| 1078 | [Occurrence After Bigram](https://leetcode.com/problems/occurrences-after-bigram) | Easy | |
+| 1085 | [Sum of Digits in Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number) | Easy | |
+| 1086 | [High Five](https://leetcode.com/problems/high-five) | Easy | |
+| 1089 | [Duplicate Zeroes](https://leetcode.com/problems/duplicate-zeros) | Easy | |
+| 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k) | Easy | |
+| 1103 | [Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people) | Easy | |
+| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address) | Easy | |
+| 1118 | [Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month) | Easy | |
+| 1119 | [Remove Vowels From String](https://leetcode.com/problems/remove-vowels-from-a-string) | Easy | |
+| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array) | Easy | |
+| 1128 | [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs) | Easy | |
+| 1133 | [Largest Unique Number](https://leetcode.com/problems/largest-unique-number) | Easy | |
+| 1134 | [Armstrong Number](https://leetcode.com/problems/armstrong-number) | Easy | |
+| 1137 | [Nth Tribonacci Number]() | Easy | |
+| 1150 | [Check if Number is Majority Element in Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array) | Easy | |
+| 1154 | [Day of The Year](https://leetcode.com/problems/day-of-the-year) | Easy | |
+| 1160 | [Find Words That Can Be Formed By Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters) | Easy | |
+| 1165 | [Single Row Keyboard](https://leetcode.com/problems/single-row-keyboard) | Easy | |
+| 1170 | [Compare Strings By Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character) | Easy | |
+| 1175 | [Prime Arrangements](https://leetcode.com/problems/prime-arrangements) | Easy | |
+| 1176 | [Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance) | Easy | |
+| 1180 | [Count Substrings with only one Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter) | Easy | |
+| 1184 | [Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops) | Easy | |
+| 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week) | Easy | |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons) | Easy | |
+| 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket) | Easy | |
+| 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference) | Easy | |
+| | []() | Easy | |
