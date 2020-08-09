@@ -25,7 +25,7 @@
 | 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/SearchInsertPosition.java) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/CountAndSay.java) |
 | 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MaximumSubArray.java) |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LengthOfLastWord.java) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | |
