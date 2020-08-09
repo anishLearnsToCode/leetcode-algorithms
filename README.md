@@ -362,6 +362,24 @@
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | Easy | |
 | 1441 | [Build An Array With Stack Operation](https://leetcode.com/problems/build-an-array-with-stack-operations) | Easy | |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters) | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
-| | []() | Easy | |
+| 1450 | [Number of Students Doing Homework at Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time) | Easy | |
+| 1455 | [Check If Word Occurs as Prefix of any Word in Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) | Easy | |
+| 1460 | [Make 2 Arrays Equal by Reversing Sub Arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays) | Easy | |
+| 1464 | [Maximum Product of 2 Elements in Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array) | Easy | |
+| 1469 | [Find All Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes) | Easy | |
+| 1470 | [Shuffle The Array](https://leetcode.com/problems/shuffle-the-array) | Easy | |
+| 1474 | [Delete N Nodes After M Nodes In A Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list) | Easy | |
+| 1475 | [Final Prices With Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | Easy | |
+| 1480 | [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array) | Easy | |
+| 1486 | [XOR Operations in An Array](https://leetcode.com/problems/xor-operation-in-an-array) | Easy | |
+| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | Easy | |
+| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing) | Easy | |
+| 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence) | Easy | |
+| 1507 | [Reformat Date](https://leetcode.com/problems/reformat-date) | Easy | |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | |
+| 1518 | [Water Bottles](https://leetcode.com/problems/water-bottles) | Easy | |
+| 1523 | [Count Odd Numbers In Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) | Easy | |
+| 1528 | [Shuffle Strings](https://leetcode.com/problems/shuffle-string) | Easy | |
+| 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets) | Easy | |
+| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | Easy | |
+| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great) | Easy | |
