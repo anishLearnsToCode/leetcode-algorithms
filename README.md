@@ -162,6 +162,74 @@
 | 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | Easy | |
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator) | Easy | |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | Easy | |
+| 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | Easy | |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | Easy | |
+| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | Easy | |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | Easy | |
+| 633 | [Sum Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | Easy | |
+| 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | Easy | |
+| 643 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i) | Easy | |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | Easy | |
+| 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Easy | |
+| 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | Easy | |
+| 661 | [Image Smoother](https://leetcode.com/problems/image-smoother) | Easy | |
+| 665 | [Non Deceasing Array](https://leetcode.com/problems/non-decreasing-array) | Easy | |
+| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) | Easy | |
+| 671 | [Second Minimum Node in Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | Easy | |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | Easy | |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | Easy | |
+| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | Easy | |
+| 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match) | Easy | |
+| 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) | Easy | |
+| 690 | [Employee Importance](https://leetcode.com/problems/employee-importance) | Easy | |
+| 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits) | Easy | |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings) | Easy | |
+| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | Easy | |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | Easy | |
+| 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | Easy | |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | |
+| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | Easy | |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap) | Easy | |
+| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | Easy | |
+| 716 | [Max Stack](https://leetcode.com/problems/max-stack) | Easy | |
+| 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | Easy | |
+| 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | Easy | |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | Easy | |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | Easy | |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | Easy | |
+| 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity) | Easy | |
+| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | Easy | |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | |
+| 747 | [Largest Number at least twize of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | Easy | |
+| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | Easy | |
+| 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string) | Easy | |
+| 760 | [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings) | Easy | |
+| 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | Easy | |
+| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | Easy | |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | Easy | |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | Easy | |
+| 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits) | Easy | |
+| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | Easy | |
+| 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color) | Easy | |
+| 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
 | | []() | Easy | |
 | | []() | Easy | |
 | | []() | Easy | |
