@@ -312,4 +312,56 @@
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons) | Easy | |
 | 1196 | [How Many Apples Can You Put into the Basket](https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket) | Easy | |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference) | Easy | |
+| 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | Easy | |
+| 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays) | Easy | |
+| 1217 | [Play With Chips](https://leetcode.com/problems/play-with-chips) | Easy | |
+| 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings) | Easy | |
+| 1228 | [Missing A Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression) | Easy | |
+| 1232 | [Check If It Is A Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | |
+| 1237 | [Find Positive Integer Solutions for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation) | Easy | |
+| 1243 | [Array Transformation](https://leetcode.com/problems/array-transformation) | Easy | |
+| 1252 | [Cells With Odd Values In Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix) | Easy | |
+| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid) | Easy | |
+| 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points) | Easy | |
+| 1271 | [Hexspeak](https://leetcode.com/problems/hexspeak) | Easy | |
+| 1275 | [Find Winner On a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game) | Easy | |
+| 1281 | [Subtract the Product and Sum of Digits of a Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer) | Easy | |
+| 1287 | [Element Appearing More Than 25% in Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | Easy | |
+| 1290 | [Convert Binary Number In A Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | Easy | |
+| 1295 | [Find Numbers With Even Numbers of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | Easy | |
+| 1299 | [Replace Elements With Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | Easy | |
+| 1304 | [Find N Unique Integers Sum Up To Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero) | Easy | |
+| 1309 | [Decrypt String From Alphabet To Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping) | Easy | |
+| 1313 | [Decompress Run-Length Encoded Strings](https://leetcode.com/problems/decompress-run-length-encoded-list) | Easy | |
+| 1317 | [Convert Integer to Sum Of Two Non-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers) | Easy | |
+| 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number) | Easy | |
+| 1331 | [Rank Transform of An Array](https://leetcode.com/problems/rank-transform-of-an-array) | Easy | |
+| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences) | Easy | |
+| 1337 | [The K Weakest Rows In A Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | |
+| 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero) | Easy | |
+| 1346 | [Check if N and It's Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | Easy | |
+| 1351 | [Count Negative Numbers In A Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | Easy | |
+| 1356 | [Sort Integers by Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | |
+| 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates) | Easy | |
+| 1365 | [How Many Numbers Are Smaller Than Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number) | Easy | |
+| 1370 | [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string) | Easy | |
+| 1374 | [Generate A String With Characters That Have Odd Count](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts) | Easy | |
+| 1380 | [Lucky Numbers In A Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix) | Easy | |
+| 1385 | [Find The Distance Value Between 2 Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays) | Easy | |
+| 1389 | [Create Target Array in Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order) | Easy | |
+| 1394 | [Find Lucky Integer In An Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | Easy | |
+| 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group) | Easy | |
+| 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order) | Easy | |
+| 1408 | [String Matching In An Array](https://leetcode.com/problems/string-matching-in-an-array) | Easy | |
+| 1413 | [Minimum Value To Get Positive Step By Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum) | Easy | |
+| 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string) | Easy | |
+| 1422 | [Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | Easy | |
+| 1426 | [Counting Elements](https://leetcode.com/problems/counting-elements) | Easy | |
+| 1427 | [Performing String Shifts](https://leetcode.com/problems/perform-string-shifts) | Easy | |
+| 1431 | [Kids With The Greatest Number Of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies) | Easy | |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city) | Easy | |
+| 1441 | [Build An Array With Stack Operation](https://leetcode.com/problems/build-an-array-with-stack-operations) | Easy | |
+| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters) | Easy | |
+| | []() | Easy | |
+| | []() | Easy | |
 | | []() | Easy | |
