@@ -29,7 +29,7 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PlusOne.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddBinary.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/Sqrtx.java) |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ClimbingStairs.java) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | |
