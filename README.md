@@ -28,7 +28,7 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LengthOfLastWord.java) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PlusOne.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddBinary.java) |
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/Sqrtx.java) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | |
