@@ -31,7 +31,7 @@
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/Sqrtx.java) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ClimbingStairs.java) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveDuplicatesFromSortedList.java) |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MergeSortedArray.java) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | Easy | |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy |
