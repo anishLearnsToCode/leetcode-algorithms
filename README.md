@@ -39,7 +39,7 @@
 | 108 | [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ConvertSortedArrayToBinarySearchTree.java) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BalancedBinaryTree.java) | 
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MinimumDepthOfBinaryTree.java) | 
-| 112 | [Path Sum](https://leetcode.com/problems/path-sum) | Easy |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() | 
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | Easy |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | Easy |
 | 121 | [Best Time to Buy and Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy |
