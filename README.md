@@ -63,7 +63,7 @@
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/HappyNumber.java) | 
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveLinkedListElements.java) |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/CountPrimes.java) |
-| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsomorphicStrings.java) |
 | 206 | [Reverse Linked Lists](https://leetcode.com/problems/reverse-linked-list) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | Easy |
