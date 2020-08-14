@@ -3,9 +3,9 @@
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/anishLearnsToCode/leetcode-algorithms)
 ![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-30/1412-1abc9c.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-30/1412-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-2/1412-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-45/1412-1abc9c.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-44/1412-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-3/1412-1abc9c.svg)
 [![license](https://img.shields.io/badge/LICENSE-MIT-<COLOR>.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -59,7 +59,7 @@
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RotateArray.java) | 
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseBits.java) | 
 | 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/number_of_1_bits.py) |
-| 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy |
