@@ -58,7 +58,7 @@
 | 172 | [Factoring Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FactorialTrailingZeros.java) | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RotateArray.java) | 
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseBits.java) | 
-| 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy |
+| 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Python](https://img.icons8.com/color/35/000000/python.png)]() |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy |
