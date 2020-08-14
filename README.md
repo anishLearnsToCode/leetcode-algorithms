@@ -61,7 +61,7 @@
 | 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/number_of_1_bits.py) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/HouseRobber.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/HappyNumber.java) | 
-| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy |
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveLinkedListElements.java) |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy |
 | 206 | [Reverse Linked Lists](https://leetcode.com/problems/reverse-linked-list) | Easy |
