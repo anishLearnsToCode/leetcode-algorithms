@@ -73,7 +73,7 @@
 | 232 | [Implement Queue Using Stacks]() | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MyQueue.java) | 
 | 234 | [Palindrome Linked Lists](https://leetcode.com/problems/palindrome-linked-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PalindromeLinkedList.java) | 
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LowestCommonAncestorOfBinarySearchTree.java) |
-| 237 | [Delete a Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Easy |
+| 237 | [Delete a Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]([![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy |
 | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance) | Easy |
 | 246 | [Strobogramatic Number](https://leetcode.com/problems/strobogrammatic-number) | Easy |
