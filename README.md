@@ -49,7 +49,7 @@
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LinkedListCycle.java) | 
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MinStack.java) |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4) | Easy |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | Easy |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
 | 167 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Easy |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) | Easy |
