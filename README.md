@@ -45,7 +45,7 @@
 | 121 | [Best Time to Buy and Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BestTimeToBuyAndSellStock.java) |
 | 122 | [Best Time to Buy and Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BestTimeToBuyAndSellStockII.java) | 
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ValidPalindrome.java) |
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | Easy |
+| 136 | [Single Number](https://leetcode.com/problems/single-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/SingleNumber.java) | 
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4) | Easy |
