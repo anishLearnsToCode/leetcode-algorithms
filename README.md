@@ -65,7 +65,7 @@
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/CountPrimes.java) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsomorphicStrings.java) |
 | 206 | [Reverse Linked Lists](https://leetcode.com/problems/reverse-linked-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseLinkedList.java) |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ContainsDuplicate.java) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | Easy |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy |
