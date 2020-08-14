@@ -54,7 +54,7 @@
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ExcelSheetColumnTitle.java) | 
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MajorityElement.java) | 
 | 170 | [Two Sum  III - Data Structure Design](https://leetcode.com/problems/two-sum-iii-data-structure-design) | Easy |
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ExcelSheetColumnNumber.java) |
 | 172 | [Factoring Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FactorialTrailingZeros.java) | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Easy |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy |
