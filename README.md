@@ -79,7 +79,7 @@
 | 246 | [Strobogramatic Number](https://leetcode.com/problems/strobogrammatic-number) | Easy |
 | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) | Easy | |
 | 256 | [Paint House](https://leetcode.com/problems/paint-house) | Easy | |
-| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BinaryTreePaths.java) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | |
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
