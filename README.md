@@ -83,7 +83,7 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddDigits.java) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/UglyNumber.java) |
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)]() |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MissingNumber.java) |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value) | Easy | |
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence) | Easy | |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | |
