@@ -81,7 +81,7 @@
 | 256 | [Paint House](https://leetcode.com/problems/paint-house) | Easy | |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BinaryTreePaths.java) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddDigits.java) |
-| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/UglyNumber.java) |
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value) | Easy | |
