@@ -91,7 +91,7 @@
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/WordPattern.java) |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/NimGame.java) |
 | 293 | [Flip Game](https://leetcode.com/problems/flip-game) | Easy | |
-| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | Easy | |
+| 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BullsAndCows.java) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | Easy | |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | Easy | |
 | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum) | Easy | |
