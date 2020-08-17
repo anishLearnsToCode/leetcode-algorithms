@@ -104,7 +104,7 @@
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsPerfectSquare.java) |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/GuessNumberHigherOrLower.java) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RansomNote.java) |
-| 387 | [First Unique Character in String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | |
+| 387 | [First Unique Character in String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FirstUniqueCharacter.java) |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch) | Easy | |
