@@ -98,7 +98,7 @@
 | 344 | [Reverse A String](https://leetcode.com/problems/reverse-string) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseString.java) |
 | 345 | [Reverse Vowels of A String](https://leetcode.com/problems/reverse-vowels-of-a-string) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseVowelsOfString.java) |
 | 346 | [Moving Average From Data Stream](https://leetcode.com/problems/moving-average-from-data-stream) | Easy | |
-| 349 | [Intersection of 2 Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | |
+| 349 | [Intersection of 2 Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IntersectionOfTwoArrays.java) |
 | 350 | [Intersection of 2 Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Easy | |
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter) | Easy | |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | Easy | |
