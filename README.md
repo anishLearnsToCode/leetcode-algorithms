@@ -101,7 +101,7 @@
 | 349 | [Intersection of 2 Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IntersectionOfTwoArrays.java) |
 | 350 | [Intersection of 2 Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IntersectionOfTwoArraysII.java) |
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter) | Easy | |
-| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | Easy | |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsPerfectSquare.java) |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) | Easy | |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | |
 | 387 | [First Unique Character in String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | |
