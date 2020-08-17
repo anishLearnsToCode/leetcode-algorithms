@@ -106,7 +106,7 @@
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RansomNote.java) |
 | 387 | [First Unique Character in String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FirstUniqueCharacter.java) |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FindTheDifference.java) |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsSubsequence.java) |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch) | Easy | |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | Easy | |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Easy | |
