@@ -92,7 +92,7 @@
 | 293 | [Flip Game](https://leetcode.com/problems/flip-game) | Easy | |
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BullsAndCows.java) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RangeSumQueryImmutable.java) |
-| 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | Easy | |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PowerOfThree.java) |
 | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum) | Easy | |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four) | Easy | |
 | 344 | [Reverse A String](https://leetcode.com/problems/reverse-string) | Easy | |
