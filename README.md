@@ -108,7 +108,7 @@
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FindTheDifference.java) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/IsSubsequence.java) |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/BinaryWatch.java) |
-| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | Easy | |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/SumOfLeftLeaves.java) |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Easy | |
 | 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation) | Easy | |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | Easy | |
