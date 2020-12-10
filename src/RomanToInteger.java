@@ -17,12 +17,6 @@ public class RomanToInteger {
         romanNumerals.put('M', 1000);
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String roman = scanner.next();
-        System.out.println(romanToInt(roman));
-    }
-
     private static int romanToInt(String string) {
         int value = 0;
         for (int index = 0 ; index < string.length() ; index++) {
