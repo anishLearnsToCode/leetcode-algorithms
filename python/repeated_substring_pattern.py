@@ -13,7 +13,3 @@ class Solution:
                 if substring[j] != pattern[i * len(substring) + j]:
                     return False
         return True
-
-
-sol = Solution()
-print(sol.repeatedSubstringPattern('a'))

@@ -121,7 +121,7 @@
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MinimumMovesToEqualArrayElements.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/minimum_moves_to_equal_array_element.py) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AssignCookies.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/assign_cookies.py)|
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RepeatedSubstringPattern.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/repeated_substring_pattern.py) |
-| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | Easy | |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HammingDistance.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/hamming_distance.py) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter) | Easy | |
 | 475 | [Heaters](https://leetcode.com/problems/heaters) | Easy | |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | Easy | |
