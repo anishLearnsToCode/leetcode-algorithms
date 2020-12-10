@@ -24,7 +24,7 @@ public class ReverseVowelsOfString {
         StringBuilder result = new StringBuilder();
         for (int index = 0, j = vowels.size() - 1 ; index < string.length() ; index++) {
             char character = string.charAt(index);
-            result.append(isVowel(character) ? vowels.get(j--) : character);
+            result.append((char) (isVowel(character) ? vowels.get(j--) : character));
         }
         return result.toString();
     }

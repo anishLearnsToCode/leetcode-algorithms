@@ -3,7 +3,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-IntersectionOfTwoArrays
 public class IntersectionOfTwoArrays {
     public static int[] intersection(int[] array1, int[] array2) {
         Set<Integer> numbers1 = setFrom(array1);
