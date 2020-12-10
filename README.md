@@ -1,6 +1,6 @@
 # Leetcode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-94/1412-1f425f.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-100/1412-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-93/1412-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-3/1412-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -8,24 +8,24 @@
 ## Problems
 | # Number | Name | Difficulty | Solution |
 |:--------:|------|:----------:|:--------:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/TwoSum.java) | 
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ReverseInteger.java) |
-| 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PalindromeNumber.java) |
-| 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RomanToInteger.java) |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LongestCommonPrefix.java) |
-| 20 | [ValidParentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ValidParentheses.java) |
-| 21 | [Merge 2 Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/Merge2SortedLists.java) |
-| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveDuplicatesFromSortedArray.java) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveElement.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/remove_element.py)|
-| 28 | [Needle in Haystack](https://leetcode.com/problems/implement-strstr) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/NeedleInHaystack.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/python/needle_in_haystack.py) |
-| 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/SearchInsertPosition.java) |
-| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/CountAndSay.java) |
-| 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MaximumSubArray.java) |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LengthOfLastWord.java) |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/PlusOne.java) |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddBinary.java) |
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/Sqrtx.java) |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ClimbingStairs.java) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/TwoSum.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/two_sum.py) | 
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseInteger.java) |
+| 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PalindromeNumber.java) |
+| 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RomanToInteger.java) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LongestCommonPrefix.java) |
+| 20 | [ValidParentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ValidParentheses.java) |
+| 21 | [Merge 2 Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Merge2SortedLists.java) |
+| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveDuplicatesFromSortedArray.java) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveElement.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/remove_element.py)|
+| 28 | [Needle in Haystack](https://leetcode.com/problems/implement-strstr) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NeedleInHaystack.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/needle_in_haystack.py) |
+| 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SearchInsertPosition.java) |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/CountAndSay.java) |
+| 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaximumSubArray.java) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LengthOfLastWord.java) |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PlusOne.java) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddBinary.java) |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Sqrtx.java) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ClimbingStairs.java) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/RemoveDuplicatesFromSortedList.java) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/MergeSortedArray.java) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/SameTree.java) |
