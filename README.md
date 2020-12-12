@@ -262,7 +262,7 @@
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook) | Easy | |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | Easy | |
 | 1005 | [Maximize Sum of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations) | Easy | |
-| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | Easy | |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberComplement.java) |
 | 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | Easy | |
 | 1013 | [Partition Array into Three Parts with equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum) | Easy | |
 | 1018 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5) | Easy | |
