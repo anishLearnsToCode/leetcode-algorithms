@@ -1,6 +1,6 @@
 # Leetcode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-100/1412-1f425f.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-105/1412-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-99/1412-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-16/1412-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -54,7 +54,7 @@
 | 172 | [Factoring Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FactorialTrailingZeros.java) | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RotateArray.java) | 
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseBits.java) | 
-| 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Python](https://img.icons8.com/color/35/000000/python.png)](python/number_of_1_bits.py) |
+| 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberOf1Bit.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/number_of_1_bits.py) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HouseRobber.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HappyNumber.java) | 
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveLinkedListElements.java) |
