@@ -1,7 +1,7 @@
 # Leetcode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-105/1412-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-99/1412-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-106/1412-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-106/1412-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-16/1412-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -127,8 +127,8 @@
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberComplement.java) |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LicenseKeyFormatting.java) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaxConsecutiveOnes.java) |
-| 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ConstructTheRectangle.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/construct_the_rectangle.py)|
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | Easy | |
+| 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ConstructTheRectangle.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/construct_the_rectangle.py) |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NextGreaterElementI.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/next_greater_element_i.py) |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | Easy | |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | Easy | |
