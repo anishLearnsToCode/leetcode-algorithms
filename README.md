@@ -1,8 +1,8 @@
 # Leetcode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/1412-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-107/1412-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-20/1412-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/571-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-107/1571-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-20/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## Problems
