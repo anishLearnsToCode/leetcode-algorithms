@@ -6,8 +6,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## Problems
-| # Number | Name | Difficulty | Solution |
-|:--------:|------|:----------:|:--------:|
+| # Number | Name | Difficulty | Solution | Youtube Solution Video |
+|:--------:|------|:----------:|:--------:|:----------------------:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/TwoSum.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/two_sum.py) | 
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseInteger.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/reverse_integer.py) |
 | 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PalindromeNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/palindrome_number.py) |
@@ -21,7 +21,7 @@
 | 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SearchInsertPosition.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/search_insert_position.py) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/CountAndSay.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/count_and_say.py) |
 | 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaximumSubArray.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/maximum_sum_subarray.py) |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LengthOfLastWord.java) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LengthOfLastWord.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/length_of_last_word.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PlusOne.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddBinary.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Sqrtx.java) |
