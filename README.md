@@ -2,7 +2,7 @@
 
 ![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/571-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-107/1571-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-27/1571-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-28/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## Problems
@@ -26,7 +26,7 @@
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddBinary.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/add_binary.py) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Sqrtx.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/sqrt.py) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ClimbingStairs.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/climbing_stairs.py) |
-| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveDuplicatesFromSortedList.java) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveDuplicatesFromSortedList.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/remove_duplicates_from_linked_list.py) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MergeSortedArray.java) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SameTree.java) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SymmetricTree.java) |
