@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## Problems
-| # Number | Name | Difficulty | Solution | Youtube |
+| #Number | Name | Difficulty | Solution | Youtube |
 |:--------:|------|:----------:|:--------:|:----------------------:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/TwoSum.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/two_sum.py) | 
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseInteger.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/reverse_integer.py) |
