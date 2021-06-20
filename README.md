@@ -22,7 +22,7 @@
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/CountAndSay.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/count_and_say.py) |
 | 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaximumSubArray.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/maximum_sum_subarray.py) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LengthOfLastWord.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/length_of_last_word.py) |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PlusOne.java) |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PlusOne.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/plus_one.py) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddBinary.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Sqrtx.java) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ClimbingStairs.java) |
