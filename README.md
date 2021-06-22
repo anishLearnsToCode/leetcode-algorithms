@@ -2,7 +2,7 @@
 
 ![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/571-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-107/1571-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-30/1571-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-31/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## Problems
@@ -29,7 +29,7 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveDuplicatesFromSortedList.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/remove_duplicates_from_linked_list.py) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MergeSortedArray.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/merge_sorted_array.py) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SameTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/same_tree.py) |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SymmetricTree.java) |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/SymmetricTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/symmetric_tree.py) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaximumDepthOfBinaryTree.java) |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/BinaryTreeLevelOrderTraversalII.java) |
 | 108 | [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ConvertSortedArrayToBinarySearchTree.java) |
