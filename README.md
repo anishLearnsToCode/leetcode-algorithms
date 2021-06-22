@@ -9,7 +9,7 @@
 | #Number | Name | Difficulty | Solution | Youtube |
 |:--------:|------|:----------:|:--------:|:----------------------:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/TwoSum.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/two_sum.py) | 
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseInteger.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/reverse_integer.py) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-isnteger/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseInteger.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/reverse_integer.py) |
 | 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PalindromeNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/palindrome_number.py) |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RomanToInteger.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/roman_to_integer.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LongestCommonPrefix.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/longest_common_prefix.py) |
