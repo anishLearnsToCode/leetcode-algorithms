@@ -56,7 +56,7 @@
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ReverseBits.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/reverse_bits.py) | 
 | 191 | [Number of One Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberOf1Bit.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/number_of_1_bits.py) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HouseRobber.java) |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HappyNumber.java) | 
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HappyNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/happy_number.py) | 
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RemoveLinkedListElements.java) |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/CountPrimes.java) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/IsomorphicStrings.java) |
