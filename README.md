@@ -5,6 +5,8 @@
 ![problems-solved-python](https://img.shields.io/badge/Python-32/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+🔒 = Subscription Content
+
 ## Problems
 | #Number | Name | Difficulty | Solution | Youtube |
 |:--------:|------|:----------:|:--------:|:----------------------:|
@@ -49,7 +51,7 @@
 | 167 | [Two Sum II - Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/TwoSumIIInputArrayIsSorted.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/two_sum_ii.py) |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ExcelSheetColumnTitle.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/excel_sheet_column_title.py) | 
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MajorityElement.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/majority_element.py) | 
-| 170 | [🔒 Two Sum  III - Data Structure Design](https://leetcode.com/problems/two-sum-iii-data-structure-design) | Easy | |
+| 170 | 🔒 [Two Sum  III - Data Structure Design](https://leetcode.com/problems/two-sum-iii-data-structure-design) | Easy | |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ExcelSheetColumnNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/excel_sheet_column_number.py) |
 | 172 | [Factoring Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FactorialTrailingZeros.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/factorial_trailing_zeroes.py) | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RotateArray.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/rotate_array.py) | 
@@ -65,7 +67,7 @@
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ContainsDuplicateII.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/contains_duplicate_ii.py) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MyStack.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/implement_stack_using_queues.py) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/InvertBinaryTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/invert_binary_tree.py) |
-| 231 | [Power of Two](https://leetcode.com/problems/power-of-two) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PowerOf2.java) |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PowerOf2.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/is_power_of_2.py) |
 | 232 | [Implement Queue Using Stacks]() | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MyQueue.java) | 
 | 234 | [Palindrome Linked Lists](https://leetcode.com/problems/palindrome-linked-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/PalindromeLinkedList.java) | 
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LowestCommonAncestorOfBinarySearchTree.java) |
