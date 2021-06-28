@@ -80,7 +80,7 @@
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/BinaryTreePaths.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/binary_tree_paths.py) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddDigits.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/add_digits.py) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/UglyNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/ugly_number.py) |
-| 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
+| 266 | 🔒 [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation) | Easy | |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MissingNumber.java) |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value) | Easy | |
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence) | Easy | |
