@@ -84,8 +84,8 @@
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MissingNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/missing_number.py) |
 | 270 | 🔒 [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value) | Easy | |
 | 276 | 🔒 [Paint Fence](https://leetcode.com/problems/paint-fence) | Easy | |
-| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FirstBadVersion.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/first_bad_version.py)|
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MoveZeros.java) |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FirstBadVersion.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/first_bad_version.py) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MoveZeros.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/move_zeroes.py) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/WordPattern.java) |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/NimGame.java) |
 | 293 | [Flip Game](https://leetcode.com/problems/flip-game) | Easy | |
