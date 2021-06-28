@@ -73,10 +73,10 @@
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LowestCommonAncestorOfBinarySearchTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/lowest_common_ancestor_of_bst.py) |
 | 237 | [Delete a Node In A Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/DeleteANodeInLinkedList.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/delete_node_in_linked_list.py) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ValidAnagram.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/delete_node_in_linked_list.py) |
-| 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance) | Easy | |
-| 246 | [Strobogramatic Number](https://leetcode.com/problems/strobogrammatic-number) | Easy | |
-| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) | Easy | |
-| 256 | [Paint House](https://leetcode.com/problems/paint-house) | Easy | |
+| 243 | 🔒 [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance) | Easy | |
+| 246 | 🔒 [Strobogramatic Number](https://leetcode.com/problems/strobogrammatic-number) | Easy | |
+| 252 | 🔒 [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) | Easy | |
+| 256 | 🔒 [Paint House](https://leetcode.com/problems/paint-house) | Easy | |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/BinaryTreePaths.java) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/AddDigits.java) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/UglyNumber.java) |
