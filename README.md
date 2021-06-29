@@ -1,4 +1,4 @@
-# Leetcode Algorithms
+# LeetCode Algorithms
 
 ![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/571-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-107/1571-1abc9c.svg)
@@ -111,7 +111,7 @@
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ConvertNumberToHexadecimal.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/convert_a_number_to_hexadecimal.py) |
 | 408 | 🔒 [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation) | Easy | |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/LongestPalindrome.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/longest_palindrome.py) |
-| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FizzBuzz.java) |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/FizzBuzz.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/fizz_buzz.py) |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/ThirdMaximumNumber.java) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](https://github.com/anishLearnsToCode/leetcode-algorithms/blob/master/src/AddString.java) |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square) | Easy | |
