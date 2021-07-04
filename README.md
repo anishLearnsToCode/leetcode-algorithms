@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-107/571-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-107/1571-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-32/1571-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-108/571-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-108/1571-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-108/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 🔒 = Subscription Content
@@ -125,7 +125,7 @@
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RepeatedSubstringPattern.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/repeated_substring_pattern.py) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/HammingDistance.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/hamming_distance.py) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/IslandPerimeter.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/island_perimeter.py) |
-| 475 | [Heaters](https://leetcode.com/problems/heaters) | Medium | |
+| 475 | [Heaters](https://leetcode.com/problems/heaters) | Medium | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Heaters.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/heaters.py) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberComplement.java) |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/LicenseKeyFormatting.java) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/MaxConsecutiveOnes.java) |
