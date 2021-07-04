@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-108/571-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-108/1571-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-108/1571-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-109/571-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-109/1571-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-109/1571-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 🔒 = Subscription Content
@@ -132,7 +132,7 @@
 | 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/ConstructTheRectangle.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/construct_the_rectangle.py) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NextGreaterElementI.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/next_greater_element_i.py) |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/KeyBoardRow.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/keyboard_row.py) |
-| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | |
+| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FindModeInBinarySearchTree) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/find_mode_in_binary_search_tree.py) |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | Easy | |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks) | Easy | |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | |
