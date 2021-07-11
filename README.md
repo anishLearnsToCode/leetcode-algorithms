@@ -134,7 +134,7 @@
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/KeyBoardRow.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/keyboard_row.py) |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FindModeInBinarySearchTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/find_mode_in_binary_search_tree.py) |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Base7.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/base_7.py) |
-| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks) | Easy | [![Python](https://img.icons8.com/color/35/000000/python.png)](python/relative_ranks.py) |
+| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RelativeRanks.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/relative_ranks.py) |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | Easy | |
