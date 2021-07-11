@@ -135,7 +135,7 @@
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/FindModeInBinarySearchTree.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/find_mode_in_binary_search_tree.py) |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/Base7.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/base_7.py) |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/RelativeRanks.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/relative_ranks.py) |
-| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/CheckPerfectNumber.java) [![Python](https://img.icons8.com/color/35/000000/python.png)](python/check_perfect_number.py) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | Easy | |
 | 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Easy | |
