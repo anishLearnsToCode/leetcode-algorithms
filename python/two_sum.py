@@ -6,14 +6,9 @@ class Solution:
         # saving indices in a map for every corresponding number
         positions_map = {}
         for index, number in enumerate(nums):
-            positions = positions_map.get(number, [])
-            positions.append(index)
-            positions_map[number] = positions
+            positions_map[number] = index
 
         for index, number in enumerate(nums):
             required = target - number
-            if required in positions_map:
-                positions = positions_map[required]
-                for i in positions:
-                    if i != index:
-                        return [index, i]
+            if required in positions_map and positions_map[required] != index:
+                return [index, positions_map[required]]
