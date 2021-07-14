@@ -3,22 +3,20 @@
 import java.util.Scanner;
 
 public class ReverseInteger {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        System.out.println(reverse(number));
-    }
-
-    private static int reverse(int number) {
-        boolean isPositive = number >= 0;
-        StringBuilder accumulator = new StringBuilder(number + "");
+    public int reverse(int x) {
+        int result = 0, next;
+        boolean isPositive = x >= 0;
         if (!isPositive) {
-            accumulator.replace(0, 1, "");
+            x *= -1;
         }
-        try {
-            return Integer.parseInt(accumulator.reverse().insert(0, isPositive ? "" : "-").toString());
-        } catch (NumberFormatException exception) {
-            return 0;
+        while (x > 0) {
+            next = 10 * result + x % 10;
+            if (((next - x % 10) / 10) != result) {
+                return 0;
+            }
+            result = next;
+            x /= 10;
         }
+        return isPositive ? result : -result;
     }
 }
