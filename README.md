@@ -10,8 +10,8 @@
 ## Problems
 | # | Name | Difficulty | Solution | Youtube |
 |:--------:|------|:----------:|:--------:|:----------------------:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](assets/java.png)](src/TwoSum.java) [![Python](assets/python.png)](python/two_sum.py) | [![java-yt](assets/java-yt.png)]() [![java-yt](assets/python-yt.png)]() |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](assets/java.png)](src/ReverseInteger.java) [![Python](assets/python.png)](python/reverse_integer.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](assets/java.png)](src/TwoSum.java) [![Python](assets/python.png)](python/two_sum.py) | [![java-yt](assets/java-yt.png)](https://youtu.be/9wSL_7NN-A8) [![python-yt](assets/python-yt.png)](https://youtu.be/N5FXCTg0TDE) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](assets/java.png)](src/ReverseInteger.java) [![Python](assets/python.png)](python/reverse_integer.py) | [![java-yt](assets/java-yt.png)](https://youtu.be/7bOhyl5lWjI) [![python-yt](assets/python-yt.png)](https://youtu.be/lmLG30TLcSg) |
 | 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](assets/java.png)](src/PalindromeNumber.java) [![Python](assets/python.png)](python/palindrome_number.py) |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [![Java](assets/java.png)](src/RomanToInteger.java) [![Python](assets/python.png)](python/roman_to_integer.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [![Java](assets/java.png)](src/LongestCommonPrefix.java) [![Python](assets/python.png)](python/longest_common_prefix.py) |
