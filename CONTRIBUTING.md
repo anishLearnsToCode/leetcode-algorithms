@@ -32,8 +32,8 @@ For the icon link refer to the table below to obtain the link for a specific pro
 
 | Programming Language | Icon | Icon Link|
 |:--------------------:|:----:|:----:|
-| Java | ![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png) | https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png |
-| Python | ![Python](https://img.icons8.com/color/35/000000/python.png) | https://img.icons8.com/color/35/000000/python.png |
+| Java | ![Java](assets/java.png) | assets/java.png |
+| Python | ![Python](assets/python.png) | assets/python.png |
 | C | ![C](https://img.icons8.com/color/35/000000/c-programming.png) | https://img.icons8.com/color/35/000000/c-programming.png |
 | C++ | ![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png) | https://img.icons8.com/color/35/000000/c-plus-plus-logo.png |
 | C# | ![C#](https://img.icons8.com/color/35/000000/c-sharp-logo.png) | https://img.icons8.com/color/35/000000/c-sharp-logo.png |
