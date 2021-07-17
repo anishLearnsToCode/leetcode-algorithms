@@ -3,19 +3,16 @@
 import java.util.Scanner;
 
 public class PalindromeNumber {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        System.out.println(isPalindrome(number));
-    }
 
-    private static boolean isPalindrome(int number) {
-        String representation = number + "";
-        for (int index = 0 ; index < representation.length() / 2 ; index++) {
-            if (representation.charAt(index) != representation.charAt(representation.length() - 1 - index)) {
-                return false;
-            }
+    public boolean isPalindrome(int number) {
+        if (number < 0 || (number % 10 == 0 && number != 0)) {
+            return false;
         }
-        return true;
+        int reverse = 0;
+        while (number > reverse) {
+            reverse = 10 * reverse + number % 10;
+            number /= 10;
+        }
+        return number == reverse || number == reverse / 10;
     }
 }

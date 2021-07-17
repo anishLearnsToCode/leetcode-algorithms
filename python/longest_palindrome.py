@@ -1,14 +1,10 @@
 class Solution:
-    def longestPalindrome(self, s: str) -> int:
-        character_frequency = {}
-        for character in s:
-            character_frequency[character] = character_frequency.get(character, 0) + 1
-        length = 0
-        had_odd_length = False
-        for frequency in character_frequency.values():
-            if frequency % 2 == 0:
-                length += frequency
-            else:
-                length += frequency - 1
-                had_odd_length = True
-        return length + int(had_odd_length)
+    def isPalindrome(self, number: int) -> bool:
+        if number == 0: return True
+        if number % 10 == 0 or number < 0: return False
+
+        right = 0
+        while number > right:
+            right = 10 * right + number % 10
+            number //= 10
+        return number == right or (number == right // 10)
