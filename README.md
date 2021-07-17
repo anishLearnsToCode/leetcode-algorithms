@@ -138,7 +138,7 @@
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number) | Easy | [![Java](assets/java.png)](src/CheckPerfectNumber.java) [![Python](assets/python.png)](python/check_perfect_number.py) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | [![Java](assets/java.png)](src/FibonacciNumber.java) [![Python](assets/python.png)](python/fibonacci_number.py) |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | Easy | [![Java](assets/java.png)](src/DetectCapital.java) [![Python](assets/python.png)](python/detect_capital.py) |
-| 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Easy | |
+| 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Easy | [![Java](assets/java.png)](src/LongestUncommonSubsequenceI.java) [![Python](assets/python.png)](python/longest_uncommon_subsequence_I.py) |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Easy | |
 | 532 | [K - Diff Pairs in Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | Easy | |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) | Easy | |
