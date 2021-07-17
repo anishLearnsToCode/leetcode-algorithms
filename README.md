@@ -139,7 +139,7 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | [![Java](assets/java.png)](src/FibonacciNumber.java) [![Python](assets/python.png)](python/fibonacci_number.py) |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | Easy | [![Java](assets/java.png)](src/DetectCapital.java) [![Python](assets/python.png)](python/detect_capital.py) |
 | 521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Easy | [![Java](assets/java.png)](src/LongestUncommonSubsequenceI.java) [![Python](assets/python.png)](python/longest_uncommon_subsequence_I.py) |
-| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Easy | |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Easy | [![Java](assets/java.png)](src/MinimumAbsoluteDifferenceInBST.java) [![Python](assets/python.png)](python/minimum_absolute_difference_in_bst.py) |
 | 532 | [K - Diff Pairs in Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | Easy | |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree) | Easy | |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii) | Easy | |
@@ -205,7 +205,7 @@
 | 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | Easy | |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | Easy | |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | Easy | |
-| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | Easy | |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | Easy | [![Java](assets/java.png)](src/MinimumAbsoluteDifferenceInBST.java) [![Python](assets/python.png)](python/minimum_distance_between_bst_nodes.py) |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits) | Easy | |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | Easy | |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color) | Easy | |
