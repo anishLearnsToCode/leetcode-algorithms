@@ -10,7 +10,7 @@
 ## Problems
 | # | Name | Difficulty | Solution | Youtube |
 |:--------:|------|:----------:|:--------:|:----------------------:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](assets/java.png)](src/TwoSum.java) [![Python](assets/python.png)](python/two_sum.py) | [![java-yt](assets/java-yt.png)]() [![java-yt](assets/java-yt.png)]() |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [![Java](assets/java.png)](src/TwoSum.java) [![Python](assets/python.png)](python/two_sum.py) | [![java-yt](assets/java-yt.png)]() [![java-yt](assets/python-yt.png)]() |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [![Java](assets/java.png)](src/ReverseInteger.java) [![Python](assets/python.png)](python/reverse_integer.py) |
 | 9 | [PalindromeNumber](https://leetcode.com/problems/palindrome-number/) | Easy | [![Java](assets/java.png)](src/PalindromeNumber.java) [![Python](assets/python.png)](python/palindrome_number.py) |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [![Java](assets/java.png)](src/RomanToInteger.java) [![Python](assets/python.png)](python/roman_to_integer.py) |
