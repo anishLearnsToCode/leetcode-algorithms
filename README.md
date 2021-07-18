@@ -146,7 +146,7 @@
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [![Java](assets/java.png)](src/DiameterOfBinaryTree.java) [![Python](assets/python.png)](python/diameter_of_binary_tree.py) |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i) | Easy | [![Java](assets/java.png)](src/StudentAttendanceRecordI.java) [![Python](assets/python.png)](python/student_attendance_record_I.py) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [![Java](assets/java.png)](src/ReverseWordsInStringIII.java) [![Python](assets/python.png)](python/reverse_words_in_string_iii.py) |
-| 559 | [Maximum Depth of N-Ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | Easy | |
+| 559 | [Maximum Depth of N-Ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | Easy | [![Java](assets/java.png)](src/MaximumDepthOfNAryTree.java) [![Python](assets/python.png)](python/maximum_depth_of_n_ary_tree.py) |
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i) | Easy | |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | Easy | |
 | 566 | [Reshape The Matrix](https://leetcode.com/problems/reshape-the-matrix) | Easy | |
