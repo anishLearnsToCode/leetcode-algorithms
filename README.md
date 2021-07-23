@@ -157,7 +157,7 @@
 | 590 | [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) | Easy | [![Java](assets/java.png)](src/NAryTreePostorderTraversal.java) [![Python](assets/python.png)](python/n_ary_tree_postorder_traversal.py) |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | Easy | [![Java](assets/java.png)](src/LongestHarmoniousSubsequence.java) [![Python](assets/python.png)](python/longest_harmonious_subequence.py) |
 | 598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii) | Easy | [![Java](assets/java.png)](src/RangeAdditionII.java) [![Python](assets/python.png)](python/range_addition_ii.py) |
-| 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | Easy | |
+| 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | Easy | [![Java](assets/java.png)](src/MinimumIndexSumOfTwoLists.java) [![Python](assets/python.png)](python/minimum_index_sum_of_two_lists.py) |
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator) | Easy | |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | Easy | |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | Easy | |
