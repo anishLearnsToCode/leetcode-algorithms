@@ -21,7 +21,7 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [![Java](assets/java.png)](src/RemoveElement.java) [![Python](assets/python.png)](python/remove_element.py)|
 | 28 | [Needle in Haystack](https://leetcode.com/problems/implement-strstr) | [![Java](assets/java.png)](src/NeedleInHaystack.java) [![Python](assets/python.png)](python/needle_in_haystack.py) |
 | 35 | [Search Inserted Position](https://leetcode.com/problems/search-insert-position/) | [![Java](assets/java.png)](src/SearchInsertPosition.java) [![Python](assets/python.png)](python/search_insert_position.py) |
-| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | [![Java](assets/java.png)](src/CountAndSay.java) [![Python](assets/python.png)](python/count_and_say.py) |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) |  [![Java](assets/java.png)](src/CountAndSay.java) [![Python](assets/python.png)](python/count_and_say.py) |
 | 53 | [Maximum SubArray](https://leetcode.com/problems/maximum-subarray) | [![Java](assets/java.png)](src/MaximumSubArray.java) [![Python](assets/python.png)](python/maximum_sum_subarray.py) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [![Java](assets/java.png)](src/LengthOfLastWord.java) [![Python](assets/python.png)](python/length_of_last_word.py) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | [![Java](assets/java.png)](src/PlusOne.java) [![Python](assets/python.png)](python/plus_one.py) |
@@ -117,15 +117,15 @@
 | 422 | 🔒 [Valid Word Square](https://leetcode.com/problems/valid-word-square) | |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [![Java](assets/java.png)](src/NumberOfSegmentsInString.java) [![Python](assets/python.png)](python/number_of_segments_in_a_string.py) |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins) | [![Java](assets/java.png)](src/ArrangingCoins.java) [![Python](assets/python.png)](python/arranging_coins.py) |
-| 443 | [String Compression](https://leetcode.com/problems/string-compression) | Medium | [![Java](assets/java.png)](src/StringCompression.java) [![Python](assets/python.png)](python/string_compression.py) |
-| 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs) | Medium | [![Java](assets/java.png)](src/NumberOfBoomerangs.java) [![Python](assets/python.png)](python/number_of_boomerangs.py) |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression) |  [![Java](assets/java.png)](src/StringCompression.java) [![Python](assets/python.png)](python/string_compression.py) |
+| 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs) |  [![Java](assets/java.png)](src/NumberOfBoomerangs.java) [![Python](assets/python.png)](python/number_of_boomerangs.py) |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [![Java](assets/java.png)](src/FindAllNumbersDisappearedInAnArray.java) [![Python](assets/python.png)](python/find_all_numbers_disappeared_in_an_array.py) |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | [![Java](assets/java.png)](src/MinimumMovesToEqualArrayElements.java) [![Python](assets/python.png)](python/minimum_moves_to_equal_array_element.py) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies) | [![Java](assets/java.png)](src/AssignCookies.java) [![Python](assets/python.png)](python/assign_cookies.py)|
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | [![Java](assets/java.png)](src/RepeatedSubstringPattern.java) [![Python](assets/python.png)](python/repeated_substring_pattern.py) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | [![Java](assets/java.png)](src/HammingDistance.java) [![Python](assets/python.png)](python/hamming_distance.py) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter) | [![Java](assets/java.png)](src/IslandPerimeter.java) [![Python](assets/python.png)](python/island_perimeter.py) |
-| 475 | [Heaters](https://leetcode.com/problems/heaters) | Medium | [![Java](assets/java.png)](src/Heaters.java) [![Python](assets/python.png)](python/heaters.py) |
+| 475 | [Heaters](https://leetcode.com/problems/heaters) |  [![Java](assets/java.png)](src/Heaters.java) [![Python](assets/python.png)](python/heaters.py) |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | [![Java](assets/java.png)](src/NumberComplement.java) [![Python](assets/python.png)](python/number_complement.py) |
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [![Java](assets/java.png)](src/LicenseKeyFormatting.java) [![Python](assets/python.png)](python/license_key_formatting.py) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [![Java](assets/java.png)](src/MaxConsecutiveOnes.java) [![Python](assets/python.png)](python/max_consecutive_ones.py) |
@@ -152,7 +152,7 @@
 | 566 | [Reshape The Matrix](https://leetcode.com/problems/reshape-the-matrix) | [![Java](assets/java.png)](src/ReshapeTheMatrix.java) [![Python](assets/python.png)](python/reshape_the_matrix.py) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | [![Java](assets/java.png)](src/SubtreeOfAnotherTree.java) [![Python](assets/python.png)](python/subtree_of_another_tree.py) |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies) | [![Java](assets/java.png)](src/DistributeCandies.java) [![Python](assets/python.png)](python/distribute_candies.py) |
-| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) | Medium | [![Java](assets/java.png)](src/ShortestUnsortedContinuousSubarray.java) [![Python](assets/python.png)](python/shortest_continuous_unsorted_subarray.py) |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) |  [![Java](assets/java.png)](src/ShortestUnsortedContinuousSubarray.java) [![Python](assets/python.png)](python/shortest_continuous_unsorted_subarray.py) |
 | 589 | [N-Ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal) | [![Java](assets/java.png)](src/NArayTreePreOrderTraversal.java) [![Python](assets/python.png)](python/n_ary_tree_preorder_traversal.py) |
 | 590 | [N-Ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) | [![Java](assets/java.png)](src/NAryTreePostorderTraversal.java) [![Python](assets/python.png)](python/n_ary_tree_postorder_traversal.py) |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | [![Java](assets/java.png)](src/LongestHarmoniousSubsequence.java) [![Python](assets/python.png)](python/longest_harmonious_subequence.py) |
