@@ -159,7 +159,7 @@
 | 598 | [Range Addition II](https://leetcode.com/problems/range-addition-ii) | [![Java](assets/java.png)](src/RangeAdditionII.java) [![Python](assets/python.png)](python/range_addition_ii.py) |
 | 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | [![Java](assets/java.png)](src/MinimumIndexSumOfTwoLists.java) [![Python](assets/python.png)](python/minimum_index_sum_of_two_lists.py) |
 | 604 | 🔒 [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator) | |
-| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | [![Java](assets/java.png)](src/CanPlaceFlowers.java) [![Python](assets/python.png)](python/can_place_flowers.py) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
