@@ -163,7 +163,7 @@
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | [![Java](assets/java.png)](src/ConstructStringFromBinaryTree.java) [![Python](assets/python.png)](python/construct_string_from_binary_tree.py) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [![Java](assets/java.png)](src/MergeTwoBinaryTrees.java) [![Python](assets/python.png)](python/merge_two_binary_trees.py) |
 | 624 | 🔒 [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
-| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | [![Java](assets/java.png)](src/MaximumProductOfThreeNumbers.java) [![Python](assets/python.png)](python/maximum_product_of_three_numbers.py) |
 | 633 | [Sum Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | |
 | 643 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i) | |
