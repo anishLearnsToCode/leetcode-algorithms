@@ -162,7 +162,7 @@
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | [![Java](assets/java.png)](src/CanPlaceFlowers.java) [![Python](assets/python.png)](python/can_place_flowers.py) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | [![Java](assets/java.png)](src/ConstructStringFromBinaryTree.java) [![Python](assets/python.png)](python/construct_string_from_binary_tree.py) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [![Java](assets/java.png)](src/MergeTwoBinaryTrees.java) [![Python](assets/python.png)](python/merge_two_binary_trees.py) |
-| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
+| 624 | 🔒 [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | |
 | 633 | [Sum Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | |
