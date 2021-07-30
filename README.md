@@ -160,7 +160,7 @@
 | 599 | [Minimum Index Sum of 2 Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | [![Java](assets/java.png)](src/MinimumIndexSumOfTwoLists.java) [![Python](assets/python.png)](python/minimum_index_sum_of_two_lists.py) |
 | 604 | 🔒 [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator) | |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers) | [![Java](assets/java.png)](src/CanPlaceFlowers.java) [![Python](assets/python.png)](python/can_place_flowers.py) |
-| 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | |
+| 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | [![Java](assets/java.png)](src/ConstructStringFromBinaryTree.java) [![Python](assets/python.png)](python/construct_string_from_binary_tree.py)|
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | |
