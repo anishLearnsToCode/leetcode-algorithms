@@ -166,7 +166,7 @@
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | [![Java](assets/java.png)](src/MaximumProductOfThreeNumbers.java) [![Python](assets/python.png)](python/maximum_product_of_three_numbers.py) |
 | 633 | [Sum Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | [![Java](assets/java.png)](src/SumOfSquareNumbers.java) [![Python](assets/python.png)](python/sum_of_squares_numbers.py) |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | |
-| 643 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i) | |
+| 643 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i) | [![Java](assets/java.png)](src/MaximumAverageSubArrayI.java) [![Python](assets/python.png)](python/maximum_average_subarray_I.py) |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | |
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | |
