@@ -170,7 +170,7 @@
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | [![Java](assets/java.png)](src/SetMismatch.java) [![Python](assets/python.png)](python/set_mismatch.py) |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [![Java](assets/java.png)](src/TwoSumIVInputIsABST.java) [![Python](assets/python.png)](python/two_sum_iv.py) |
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | [![Java](assets/java.png)](src/RobotReturnToOrigin.java) [![Python](assets/python.png)](python/robot_return_to_origin.py) |
-| 661 | [Image Smoother](https://leetcode.com/problems/image-smoother) | |
+| 661 | [Image Smoother](https://leetcode.com/problems/image-smoother) | [![Java](assets/java.png)](src/ImageSmoother.java) [![Python](assets/python.png)](python/image_smoother.py) |
 | 665 | [Non Deceasing Array](https://leetcode.com/problems/non-decreasing-array) | |
 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) | |
 | 671 | [Second Minimum Node in Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | |
