@@ -165,7 +165,7 @@
 | 624 | 🔒 [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | [![Java](assets/java.png)](src/MaximumProductOfThreeNumbers.java) [![Python](assets/python.png)](python/maximum_product_of_three_numbers.py) |
 | 633 | [Sum Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | [![Java](assets/java.png)](src/SumOfSquareNumbers.java) [![Python](assets/python.png)](python/sum_of_squares_numbers.py) |
-| 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [![Java](assets/java.png)](src/AverageLevelsOfBinaryTree.java) [![Python](assets/python.png)](python/)
+| 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [![Java](assets/java.png)](src/AverageLevelsOfBinaryTree.java) [![Python](assets/python.png)](python/average_levels_of_binary_tree.py)
 | 643 | [Maximum Average SubArray I](https://leetcode.com/problems/maximum-average-subarray-i) | [![Java](assets/java.png)](src/MaximumAverageSubArrayI.java) [![Python](assets/python.png)](python/maximum_average_subarray_I.py) |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | [![Java](assets/java.png)](src/SetMismatch.java) [![Python](assets/python.png)](python/set_mismatch.py) |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [![Java](assets/java.png)](src/TwoSumIVInputIsABST.java) [![Python](assets/python.png)](python/two_sum_iv.py) |
