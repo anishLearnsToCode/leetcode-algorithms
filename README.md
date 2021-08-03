@@ -172,7 +172,7 @@
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin) | [![Java](assets/java.png)](src/RobotReturnToOrigin.java) [![Python](assets/python.png)](python/robot_return_to_origin.py) |
 | 661 | [Image Smoother](https://leetcode.com/problems/image-smoother) | [![Java](assets/java.png)](src/ImageSmoother.java) [![Python](assets/python.png)](python/image_smoother.py) |
 | 665 | [Non Deceasing Array](https://leetcode.com/problems/non-decreasing-array) | [![Java](assets/java.png)](src/NonDecreasingArray.java) [![Python](assets/python.png)](python/non_decreasing_array.py) |
-| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) | |
+| 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree) | [![Java](assets/java.png)](src/TrimABinarySearchTree.java) [![Python](assets/python.png)](python/trim_a_binary_search_tree.py) |
 | 671 | [Second Minimum Node in Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | |
