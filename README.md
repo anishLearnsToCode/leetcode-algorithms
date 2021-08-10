@@ -176,7 +176,7 @@
 | 671 | [Second Minimum Node in Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | [![Java](assets/java.png)](src/SecondMinimumNodeInBinaryTree.java) [![Python](assets/python.png)](python/second_minimum_node_in_binary_tree.py) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [![Java](assets/java.png)](src/LongestContinuousIncreasingSubsequence.java) [![Python](assets/python.png)](python/longest_continuous_increasing_subsequence.py) |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | [![Java](assets/java.png)](src/ValidPalindromeII.java) [![Python](assets/python.png)](python/valid_pallindrome_ii.py) |
-| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | |
+| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | [![Java](assets/java.png)](src/BaseballGame.java) [![Python](assets/python.png)](python/baseball_game.py) |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match) | |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) | |
 | 690 | [Employee Importance](https://leetcode.com/problems/employee-importance) | |
