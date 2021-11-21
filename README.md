@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-143/1571-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-143/1571-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-143/1571-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-161/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-161/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-161/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -68,6 +68,7 @@
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [![Java](assets/java.png)](src/ContainsDuplicateII.java) [![Python](assets/python.png)](python/contains_duplicate_ii.py) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [![Java](assets/java.png)](src/MyStack.java) [![Python](assets/python.png)](python/implement_stack_using_queues.py) |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [![Java](assets/java.png)](src/InvertBinaryTree.java) [![Python](assets/python.png)](python/invert_binary_tree.py) |
+| 226 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [![Java](assets/java.png)](src/SummaryRanges.java) [![Python](assets/python.png)](python/summary_ranges.py) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two) | [![Java](assets/java.png)](src/PowerOf2.java) [![Python](assets/python.png)](python/is_power_of_2.py) |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [![Java](assets/java.png)](src/MyQueue.java) [![Python](assets/python.png)](python/implement_queue_using_stacks.py) | 
 | 234 | [Palindrome Linked Lists](https://leetcode.com/problems/palindrome-linked-list) | [![Java](assets/java.png)](src/PalindromeLinkedList.java) [![Python](assets/python.png)](python/palindrome_linked_list.py) | 

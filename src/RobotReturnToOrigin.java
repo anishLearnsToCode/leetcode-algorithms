@@ -3,10 +3,10 @@ public class RobotReturnToOrigin {
         int vertical = 0, horizontal = 0;
         for (int index = 0 ; index < moves.length() ; index++) {
             switch (moves.charAt(index)) {
-                case 'U' -> vertical++;
-                case 'R' -> horizontal++;
-                case 'D' -> vertical--;
-                case 'L' -> horizontal--;
+                case 'U': vertical++; break;
+                case 'R': horizontal++; break;
+                case 'D': vertical--; break;
+                case 'L': horizontal--; break;
             }
         }
         return vertical == 0 && horizontal == 0;
