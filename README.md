@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-168/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-168/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-168/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-169/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-169/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-169/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -189,7 +189,7 @@
 | 690 | [Employee Importance](https://leetcode.com/problems/employee-importance) | |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits) | [![Java](assets/java.png)](src/BinaryNumberWithAlternatingBits.java) [![Python](assets/python.png)](python/binary_number_with_alternating_bits.py) |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings) | [![Java](assets/java.png)](src/CountBinarySubstrings.java) [![Python](assets/python.png)](python/count_binary_substrings.py) |
-| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | |
+| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array) | [![Java](assets/java.png)](src/DegreeOfAnArray.java) [![Python](assets/python.png)](python/degree_of_an_array.py) |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search) | |
