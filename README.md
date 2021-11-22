@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-162/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-162/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-162/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-163/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-163/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-163/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -133,6 +133,7 @@
 | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [![Java](assets/java.png)](src/LicenseKeyFormatting.java) [![Python](assets/python.png)](python/license_key_formatting.py) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | [![Java](assets/java.png)](src/MaxConsecutiveOnes.java) [![Python](assets/python.png)](python/max_consecutive_ones.py) |
 | 492 | [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle) | [![Java](assets/java.png)](src/ConstructTheRectangle.java) [![Python](assets/python.png)](python/construct_the_rectangle.py) |
+| 495 | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | [![Java](assets/java.png)](src/TeemoAttacking.java) [![Python](assets/python.png)](python/teemo_attacking.py) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [![Java](assets/java.png)](src/NextGreaterElementI.java) [![Python](assets/python.png)](python/next_greater_element_i.py) |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row) | [![Java](assets/java.png)](src/KeyBoardRow.java) [![Python](assets/python.png)](python/keyboard_row.py) |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | [![Java](assets/java.png)](src/FindModeInBinarySearchTree.java) [![Python](assets/python.png)](python/find_mode_in_binary_search_tree.py) |
