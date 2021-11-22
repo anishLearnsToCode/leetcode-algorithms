@@ -47,7 +47,8 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [![Java](assets/java.png)](src/ValidPalindrome.java) [![Python](assets/python.png)](python/valid_palindrome.py) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | [![Java](assets/java.png)](src/SingleNumber.java) [![Python](assets/python.png)](python/single_number.py) | 
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [![Java](assets/java.png)](src/LinkedListCycle.java) [![Python](assets/python.png)](python/linked_list_cycle.py) | 
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [![Java](assets/java.png)](src/BinaryTreePreOrderTraversal.java) [![Python](assets/python.png)](python/binary_tree_preorder_traversal.py) | 
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | [![Java](assets/java.png)](src/BinaryTreePreOrderTraversal.java) [![Python](assets/python.png)](python/binary_tree_preorder_traversal.py) | 
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | [![Java](assets/java.png)](src/BinaryTreePostorderTraversal.java) [![Python](assets/python.png)](python/binary_tree_postorder_traversal.py) | 
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | [![Java](assets/java.png)](src/MinStack.java) [![Python](assets/python.png)](python/min_stack.py) |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4) | |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [![Java](assets/java.png)](src/IntersectionOf2LinkedLists.java) [![Python](assets/python.png)](python/intersecction_of_two_linked_lists.py) |
