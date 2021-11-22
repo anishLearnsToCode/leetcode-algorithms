@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-163/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-163/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-163/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-165/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-165/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-165/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -47,6 +47,7 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | [![Java](assets/java.png)](src/ValidPalindrome.java) [![Python](assets/python.png)](python/valid_palindrome.py) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | [![Java](assets/java.png)](src/SingleNumber.java) [![Python](assets/python.png)](python/single_number.py) | 
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [![Java](assets/java.png)](src/LinkedListCycle.java) [![Python](assets/python.png)](python/linked_list_cycle.py) | 
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [![Java](assets/java.png)](src/BinaryTreePreOrderTraversal.java) [![Python](assets/python.png)](python/binary_tree_preorder_traversal.py) | 
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | [![Java](assets/java.png)](src/MinStack.java) [![Python](assets/python.png)](python/min_stack.py) |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4) | |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [![Java](assets/java.png)](src/IntersectionOf2LinkedLists.java) [![Python](assets/python.png)](python/intersecction_of_two_linked_lists.py) |
