@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-161/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-161/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-161/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-162/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-162/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-162/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -94,6 +94,7 @@
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) | [![Java](assets/java.png)](src/BullsAndCows.java) [![Python](assets/python.png)](python/bulls_and_cows.py) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [![Java](assets/java.png)](src/RangeSumQueryImmutable.java) [![Python](assets/python.png)](python/range_sum_query_immutable.py) |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three) | [![Java](assets/java.png)](src/PowerOfThree.java) [![Python](assets/python.png)](python/power_of_three.py) |
+| 326 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [![Java](assets/java.png)](src/CountingBits.java) [![Python](assets/python.png)](python/counting_bits.py) |
 | 339 | 🔒 [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum) | |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four) | [![Java](assets/java.png)](src/PowerOf4.java) [![Python](assets/python.png)](python/power_of_four.py) |
 | 344 | [Reverse A String](https://leetcode.com/problems/reverse-string) | [![Java](assets/java.png)](src/ReverseString.java) [![Python](assets/python.png)](python/reverse_a_string.py) |
