@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-172/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-172/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-172/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-173/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-173/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-173/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -193,7 +193,7 @@
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | [![Java](assets/java.png)](src/SearchInBinarySearchTree.java) [![Python](assets/python.png)](python/search_in_binary_search_tree.py) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | [![Java](assets/java.png)](src/KthLargestElementInAStream.java) [![Python](assets/python.png)](python/k_th_largest_element_in_a_stream.py) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search) | [![Java](assets/java.png)](src/BinarySearch.java) [![Python](assets/python.png)](python/binary_search.py) |
-| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | |
+| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | [![Java](assets/java.png)](src/DesignHashSet.java) [![Python](assets/python.png)](python/design_hash_set.py) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap) | |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | |
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack) | |
