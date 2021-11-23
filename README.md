@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-174/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-174/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-174/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-175/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-175/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-175   /2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -195,7 +195,7 @@
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search) | [![Java](assets/java.png)](src/BinarySearch.java) [![Python](assets/python.png)](python/binary_search.py) |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | [![Java](assets/java.png)](src/DesignHashSet.java) [![Python](assets/python.png)](python/design_hash_set.py) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap) | [![Java](assets/java.png)](src/DesignHashMap.java) [![Python](assets/python.png)](python/design_hash_map.py) |
-| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | |
+| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | [![Java](assets/java.png)](src/ToLowerCase.java) [![Python](assets/python.png)](python/to_lower_case.py) |
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack) | |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |

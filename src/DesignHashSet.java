@@ -40,7 +40,7 @@ public class DesignHashSet {
             }
         }
 
-        private static class Bucket {
+        private class Bucket {
             Queue<Integer> list = new LinkedList<>();
 
             public boolean contains(int element) {
