@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-178/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-178/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-178/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-181/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-181/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-181/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -201,10 +201,10 @@
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [![Java](assets/java.png)](src/FindPivotIndex.java) [![Python](assets/python.png)](python/find_pivot_index.py) |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | [![Java](assets/java.png)](src/SelfDividingNumbers.java) [![Python](assets/python.png)](python/self_dividing_number.py) |
-| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | [![Java](assets/java.png)](src/FloodFill.java) [![Python](assets/python.png)](python/) |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | [![Java](assets/java.png)](src/FloodFill.java) [![Python](assets/python.png)](python/flood_fill.py) |
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity) | |
-| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | |
-| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | |
+| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | [![Java](assets/java.png)](src/FindSmallestLetterGreaterThanTarget.java) [![Python](assets/python.png)](python/find_smallest_letter_greater_than.py) |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | [![Java](assets/java.png)](src/MinCostClimbingStairs.java) [![Python](assets/python.png)](python/min_cost_climbing_stairs.py) |
 | 747 | [Largest Number at least twize of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | |
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string) | |
