@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-182/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-182/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-182/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-183/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-183/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-183/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -206,7 +206,7 @@
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | [![Java](assets/java.png)](src/FindSmallestLetterGreaterThanTarget.java) [![Python](assets/python.png)](python/find_smallest_letter_greater_than.py) |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | [![Java](assets/java.png)](src/MinCostClimbingStairs.java) [![Python](assets/python.png)](python/min_cost_climbing_stairs.py) |
 | 747 | [Largest Number at least twize of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [![Java](assets/java.png)](src/LargestNumberAtLeastTwiceOfOthers.java) [![Python](assets/python.png)](python/largest_number_at_least_twice_of_others.py) |
-| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | |
+| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | [![Java](assets/java.png)](src/ShortestCompletingWord.java) [![Python](assets/python.png)](python/shortest_completing_word.py) |
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string) | |
 | 760 | [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings) | |
 | 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | |
