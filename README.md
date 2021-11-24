@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-177/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-177/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-177/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-178/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-178/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-178/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -200,7 +200,7 @@
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | [![Java](assets/java.png)](src/OneBitAndTwoBitCharacters.java) [![Python](assets/python.png)](python/one_bit_and_two_bit_characters.py) |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [![Java](assets/java.png)](src/FindPivotIndex.java) [![Python](assets/python.png)](python/find_pivot_index.py) |
-| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | [![Java](assets/java.png)](src/SelfDividingNumbers.java) [![Python](assets/python.png)](python/self_dividing_number.py) |
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | |
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity) | |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | |
