@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-175/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-175/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-175/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-176/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-176/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-176/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
@@ -197,7 +197,7 @@
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap) | [![Java](assets/java.png)](src/DesignHashMap.java) [![Python](assets/python.png)](python/design_hash_map.py) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | [![Java](assets/java.png)](src/ToLowerCase.java) [![Python](assets/python.png)](python/to_lower_case.py) |
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack) | |
-| 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | |
+| 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | [![Java](assets/java.png)](src/OneBitAndTwoBitCharacters.java) [![Python](assets/python.png)](python/one_bit_and_two_bit_characters.py) |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | |
