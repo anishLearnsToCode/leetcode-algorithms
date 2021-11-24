@@ -1,8 +1,8 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-176/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-176/2081-1abc9c.svg)
-![problems-solved-python](https://img.shields.io/badge/Python-176/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-177/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-177/2081-1abc9c.svg)
+![problems-solved-python](https://img.shields.io/badge/Python-177/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
 
