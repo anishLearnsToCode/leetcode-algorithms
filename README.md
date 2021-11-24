@@ -199,7 +199,7 @@
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack) | |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | [![Java](assets/java.png)](src/OneBitAndTwoBitCharacters.java) [![Python](assets/python.png)](python/one_bit_and_two_bit_characters.py) |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |
-| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [![Java](assets/java.png)](src/FindPivotIndex.java) [![Python](assets/python.png)](python/find_pivot_index.py) |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers) | |
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill) | |
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity) | |
