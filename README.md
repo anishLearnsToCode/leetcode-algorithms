@@ -196,7 +196,7 @@
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | [![Java](assets/java.png)](src/DesignHashSet.java) [![Python](assets/python.png)](python/design_hash_set.py) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap) | [![Java](assets/java.png)](src/DesignHashMap.java) [![Python](assets/python.png)](python/design_hash_map.py) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | [![Java](assets/java.png)](src/ToLowerCase.java) [![Python](assets/python.png)](python/to_lower_case.py) |
-| 716 | [Max Stack](https://leetcode.com/problems/max-stack) | |
+| 716 | 🔒 [Max Stack](https://leetcode.com/problems/max-stack) | |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters) | [![Java](assets/java.png)](src/OneBitAndTwoBitCharacters.java) [![Python](assets/python.png)](python/one_bit_and_two_bit_characters.py) |
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary) | |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | [![Java](assets/java.png)](src/FindPivotIndex.java) [![Python](assets/python.png)](python/find_pivot_index.py) |
