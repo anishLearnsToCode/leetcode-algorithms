@@ -214,7 +214,7 @@
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | [![Java](assets/java.png)](src/JewelsAndStones.java) [![Python](assets/python.png)](python/jewels_and_stones.py) |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | [![Java](assets/java.png)](src/MinimumAbsoluteDifferenceInBST.java) [![Python](assets/python.png)](python/minimum_distance_between_bst_nodes.py) |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits) | |
-| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | |
+| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | [![Java](assets/java.png)](src/RotateString.java)  |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color) | |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | |
 | 806 | [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string) | |
