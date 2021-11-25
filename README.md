@@ -205,13 +205,13 @@
 | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity) | |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | [![Java](assets/java.png)](src/FindSmallestLetterGreaterThanTarget.java) [![Python](assets/python.png)](python/find_smallest_letter_greater_than.py) |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | [![Java](assets/java.png)](src/MinCostClimbingStairs.java) [![Python](assets/python.png)](python/min_cost_climbing_stairs.py) |
-| 747 | [Largest Number at least twize of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [![Java](assets/java.png)](src/LargestNumberAtLeastTwiceOfOthers.java) [![Python](assets/python.png)](python/largest_number_at_least_twice_of_others.py) |
+| 747 | [Largest Number at least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | [![Java](assets/java.png)](src/LargestNumberAtLeastTwiceOfOthers.java) [![Python](assets/python.png)](python/largest_number_at_least_twice_of_others.py) |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | [![Java](assets/java.png)](src/ShortestCompletingWord.java) [![Python](assets/python.png)](python/shortest_completing_word.py) |
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string) | |
 | 760 | [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings) | |
 | 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | [![Java](assets/java.png)](src/PrimeNumberOfSetBitsInBinaryRepresentation.java) [![Python](assets/python.png)](python/prime_number_of_set_bits_in_binary_representation.py) |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | [![Java](assets/java.png)](src/ToeplitzMatrix.java) [![Python](assets/python.png)](python/toeplitz_matrix.py) |
-| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | [![Java](assets/java.png)](src/JewelsAndStones.java) [![Python](assets/python.png)](python/jewels_and_stones.py) |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | [![Java](assets/java.png)](src/MinimumAbsoluteDifferenceInBST.java) [![Python](assets/python.png)](python/minimum_distance_between_bst_nodes.py) |
 | 788 | [Rotated Digits](https://leetcode.com/problems/rotated-digits) | |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | |
