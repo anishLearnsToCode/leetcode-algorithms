@@ -209,7 +209,7 @@
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word) | [![Java](assets/java.png)](src/ShortestCompletingWord.java) [![Python](assets/python.png)](python/shortest_completing_word.py) |
 | 758 | [Bold Words in String](https://leetcode.com/problems/bold-words-in-string) | |
 | 760 | [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings) | |
-| 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | |
+| 762 | [Prime Number of Set Bits in Primary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation) | [![Java](assets/java.png)](src/PrimeNumberOfSetBitsInBinaryRepresentation.java) [![Python](assets/python.png)](python/prime_number_of_set_bits_in_binary_representation.py) |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix) | |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones) | |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | [![Java](assets/java.png)](src/MinimumAbsoluteDifferenceInBST.java) [![Python](assets/python.png)](python/minimum_distance_between_bst_nodes.py) |
