@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-189/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-189/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-190/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-190/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -219,7 +219,7 @@
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | [![Java](assets/java.png)](src/UniqueMorseCodeWords.java) |
 | 806 | [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string) | [![Java](assets/java.png)](src/NumberOfLinesToWriteInString.java) |
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count) | |
-| 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | |
+| 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | [![Java](assets/java.png)](src/LargestTriangleArea.java) |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word) | |
 | 821 | [Shortest Distance to Character](https://leetcode.com/problems/shortest-distance-to-a-character) | |
 | 824 | [Goat Latin](https://leetcode.com/problems/goat-latin) | |
