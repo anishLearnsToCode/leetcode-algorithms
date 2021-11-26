@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-194/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-194/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-195/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-195/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -225,7 +225,7 @@
 | 824 | [Goat Latin](https://leetcode.com/problems/goat-latin) | [![Java](assets/java.png)](src/GoatLatin.java) |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) | [![Java](assets/java.png)](src/PositionsOfLargeGroups.java) |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [![Java](assets/java.png)](src/FlippingAnImage.java) |
-| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) | |
+| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) | [![Java](assets/java.png)](src/RectangleOverlap.java) |
 | 840 | [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid) | |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person) | |
