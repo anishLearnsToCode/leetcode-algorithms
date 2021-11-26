@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-188/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-188/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-189/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-189/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -217,7 +217,7 @@
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | [![Java](assets/java.png)](src/RotateString.java)  |
 | 800 | [Similar RGB Color](https://leetcode.com/problems/similar-rgb-color) | |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words) | [![Java](assets/java.png)](src/UniqueMorseCodeWords.java) |
-| 806 | [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string) | |
+| 806 | [Number of Lines to Write String](https://leetcode.com/problems/number-of-lines-to-write-string) | [![Java](assets/java.png)](src/NumberOfLinesToWriteInString.java) |
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count) | |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word) | |
