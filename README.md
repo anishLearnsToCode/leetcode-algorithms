@@ -221,7 +221,7 @@
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count) | |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area) | [![Java](assets/java.png)](src/LargestTriangleArea.java) |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word) | [![Java](assets/java.png)](src/MostCommonWord.java) |
-| 821 | [Shortest Distance to Character](https://leetcode.com/problems/shortest-distance-to-a-character) | |
+| 821 | [Shortest Distance to Character](https://leetcode.com/problems/shortest-distance-to-a-character) | [![Java](assets/java.png)](src/ShortestDistanceToACharacter.java) |
 | 824 | [Goat Latin](https://leetcode.com/problems/goat-latin) | |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups) | |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | |
