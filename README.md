@@ -227,7 +227,7 @@
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image) | [![Java](assets/java.png)](src/FlippingAnImage.java) |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap) | [![Java](assets/java.png)](src/RectangleOverlap.java) |
 | 840 | [Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid) | |
-| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | [![Java](assets/java.png)](src/BackspaceStringCompare.java) |
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person) | |
 | 852 | [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | |
