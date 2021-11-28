@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-195/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-195/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-206/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-206/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -238,7 +238,7 @@
 | 874 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [![Java](assets/java.png)](src/MiddleOfTheLinkedList.java) |
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes) | [![Java](assets/java.png)](src/ProjectionAreaOf3DShapes.java) |
-| 884 | [Uncommon Words from 2 Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | |
+| 884 | [Uncommon Words from 2 Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | [![Java](assets/java.png)](src/UncommonWordsFromTwoSentences.java) |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap) | |
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes) | |
 | 893 | [Groups of Special Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings) | |
