@@ -248,8 +248,8 @@
 | 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | [![Java](assets/java.png)](src/SmallestRangeI.java) |
 | 914 | [X of a kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards) | [![Java](assets/java.png)](src/XOfAKindInADeckOfCards.java) |
 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | [![Java](assets/java.png)](src/ReverseOnlyLetters.java) |
-| 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | |
-| 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | |
+| 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | [![Java](assets/java.png)](src/SortArrayByParityII.java) |
+| 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | [![Java](assets/java.png)](src/LongPressedName.java) |
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | |
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | |
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | |
