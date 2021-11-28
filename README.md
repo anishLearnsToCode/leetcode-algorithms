@@ -236,7 +236,7 @@
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | [![Java](assets/java.png)](src/BinaryGap.java) |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | [![Java](assets/java.png)](src/LeafSimilarTrees.java) |
 | 874 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [![Java](assets/java.png)](src/MiddleOfTheLinkedList.java) |
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes) | |
 | 884 | [Uncommon Words from 2 Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap) | |
