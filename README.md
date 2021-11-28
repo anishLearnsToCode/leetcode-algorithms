@@ -239,7 +239,7 @@
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [![Java](assets/java.png)](src/MiddleOfTheLinkedList.java) |
 | 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes) | [![Java](assets/java.png)](src/ProjectionAreaOf3DShapes.java) |
 | 884 | [Uncommon Words from 2 Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | [![Java](assets/java.png)](src/UncommonWordsFromTwoSentences.java) |
-| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap) | |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap) | [![Java](assets/java.png)](src/FairCandySwap.java) |
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes) | |
 | 893 | [Groups of Special Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings) | |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | |
