@@ -231,7 +231,7 @@
 | 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person) | |
 | 852 | [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [![Java](assets/java.png)](src/PeakIndexInMountainArray.java) |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | [![Java](assets/java.png)](src/BuddyStrings.java) |
-| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | |
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | [![Java](assets/java.png)](src/LemonadeChange.java) |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | |
