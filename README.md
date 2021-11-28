@@ -233,7 +233,7 @@
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | [![Java](assets/java.png)](src/BuddyStrings.java) |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | [![Java](assets/java.png)](src/LemonadeChange.java) |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [![Java](assets/java.png)](src/TransposeMatrix.java) |
-| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | |
+| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | [![Java](assets/java.png)](src/BinaryGap.java) |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | |
 | 874 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | |
