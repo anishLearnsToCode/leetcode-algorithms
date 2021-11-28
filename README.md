@@ -245,7 +245,7 @@
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | [![Java](assets/java.png)](src/MonotonicArray.java) |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree) | [![Java](assets/java.png)](src/IncreasingOrderSearchTree.java) |
 | 905 | [Sort Array by Parity](https://leetcode.com/problems/sort-array-by-parity) | |
-| 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | |
+| 908 | [Smallest Range I](https://leetcode.com/problems/smallest-range-i) | [![Java](assets/java.png)](src/SmallestRangeI.java) |
 | 914 | [X of a kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards) | |
 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | |
 | 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | |
