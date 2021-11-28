@@ -232,7 +232,7 @@
 | 852 | [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [![Java](assets/java.png)](src/PeakIndexInMountainArray.java) |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings) | [![Java](assets/java.png)](src/BuddyStrings.java) |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change) | [![Java](assets/java.png)](src/LemonadeChange.java) |
-| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | |
+| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix) | [![Java](assets/java.png)](src/TransposeMatrix.java) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap) | |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | |
 | 874 | [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | |
