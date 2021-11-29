@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-215/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-215/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-220/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-220/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -255,7 +255,7 @@
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | [![Java](assets/java.png)](src/ReorderDataInLogFiles.java) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [![Java](assets/java.png)](src/RangeSumOfBST.java) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | |
-| 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | |
+| 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | [![Java](assets/java.png)](src/DIStringMatch.java) |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | |
