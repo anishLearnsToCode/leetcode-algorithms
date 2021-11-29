@@ -253,7 +253,7 @@
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [![Java](assets/java.png)](src/UniqueEmailAddresses.java) |
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | [![Java](assets/java.png)](src/NumberOfRecentCalls.java) |
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | [![Java](assets/java.png)](src/ReorderDataInLogFiles.java) |
-| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [![Java](assets/java.png)](src/RangeSumOfBST.java) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | |
