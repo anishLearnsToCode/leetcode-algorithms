@@ -251,7 +251,7 @@
 | 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | [![Java](assets/java.png)](src/SortArrayByParityII.java) |
 | 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | [![Java](assets/java.png)](src/LongPressedName.java) |
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [![Java](assets/java.png)](src/UniqueEmailAddresses.java) |
-| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | [![Java](assets/java.png)](src/NumberOfRecentCalls.java) |
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | |
