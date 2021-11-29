@@ -256,7 +256,7 @@
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [![Java](assets/java.png)](src/RangeSumOfBST.java) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | [![Java](assets/java.png)](src/ValidMountainArray.java) [![Python](assets/python.png)](python/valid_mountain_array.py) |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | [![Java](assets/java.png)](src/DIStringMatch.java) |
-| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [![Java](assets/java.png)](src/DeleteColumnsToMakeSorted.java) |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | |
 | 961 | [N-Repeated Elements in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | |
