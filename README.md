@@ -254,7 +254,7 @@
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | [![Java](assets/java.png)](src/NumberOfRecentCalls.java) |
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | [![Java](assets/java.png)](src/ReorderDataInLogFiles.java) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | [![Java](assets/java.png)](src/RangeSumOfBST.java) |
-| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | |
+| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | [![Java](assets/java.png)](src/ValidMountainArray.java) [![Python](assets/python.png)](python/valid_mountain_array.py) |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | [![Java](assets/java.png)](src/DIStringMatch.java) |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | |
