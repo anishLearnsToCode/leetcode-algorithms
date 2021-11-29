@@ -258,7 +258,7 @@
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match) | [![Java](assets/java.png)](src/DIStringMatch.java) |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | [![Java](assets/java.png)](src/DeleteColumnsToMakeSorted.java) |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | |
-| 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | |
+| 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | [![Java](assets/java.png)](src/VerifyAnAlienDictionary.java) |
 | 961 | [N-Repeated Elements in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers) | |
