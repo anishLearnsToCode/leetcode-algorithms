@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-206/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-206/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-215/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-215/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -250,7 +250,7 @@
 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | [![Java](assets/java.png)](src/ReverseOnlyLetters.java) |
 | 922 | [Sort Array by Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | [![Java](assets/java.png)](src/SortArrayByParityII.java) |
 | 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | [![Java](assets/java.png)](src/LongPressedName.java) |
-| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | |
+| 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses) | [![Java](assets/java.png)](src/UniqueEmailAddresses.java) |
 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | |
 | 937 | [Reorder Data In Log Files](https://leetcode.com/problems/reorder-data-in-log-files) | |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | |
