@@ -267,7 +267,7 @@
 | 985 | [Sum of Even Numbers after Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | |
 | 989 | [Add to Array Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) | [![Java](assets/java.png)](src/AddToArrayFormOfInteger.java) |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree) | [![Java](assets/java.png)](src/CousinsInBinaryTree.java) |
-| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) | |
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge) | [![Java](assets/java.png)](src/FindTheTownJudge.java) |
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook) | |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | |
 | 1005 | [Maximize Sum of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations) | |
