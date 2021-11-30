@@ -262,7 +262,7 @@
 | 961 | [N-Repeated Elements in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [![Java](assets/java.png)](src/NRepeatedElementInSizeNArray.java) |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | [![Java](assets/java.png)](src/UnivaluedBinaryTree.java) |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers) | |
-| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | [![Java](assets/java.png)](src/LargestPerimeterTriangle.java) |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | |
 | 985 | [Sum of Even Numbers after Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | |
 | 989 | [Add to Array Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer) | |
