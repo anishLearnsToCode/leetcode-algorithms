@@ -260,7 +260,7 @@
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits) | |
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary) | [![Java](assets/java.png)](src/VerifyAnAlienDictionary.java) |
 | 961 | [N-Repeated Elements in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array) | [![Java](assets/java.png)](src/NRepeatedElementInSizeNArray.java) |
-| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | |
+| 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | [![Java](assets/java.png)](src/UnivaluedBinaryTree.java) |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers) | |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle) | |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | |
