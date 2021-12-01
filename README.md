@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-223/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-223/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-231/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-231/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -271,8 +271,8 @@
 | 999 | [Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook) | [![Java](assets/java.png)](src/AvailableCapturesForRook.java) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | [![Java](assets/java.png)](src/FindCommonCharacters.java) |
 | 1005 | [Maximize Sum of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations) | [![Java](assets/java.png)](src/MaximizeSumOfArrayAfterKNegations.java) |
-| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | [![Java](https://img.icons8.com/color/40/000000/java-coffee-cup-logo.png)](src/NumberComplement.java) |
-| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | [![Java](assets/java.png)](src/NumberComplement.java) |
+| 1010 | [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) | [![Java](assets/java.png)](src/PartitionArrayIntoThreePartsWithEqualSum.java) |
 | 1013 | [Partition Array into Three Parts with equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum) | |
 | 1018 | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5) | |
 | 1021 | [Remove Outermost Parenthesis](https://leetcode.com/problems/remove-outermost-parentheses) | |
