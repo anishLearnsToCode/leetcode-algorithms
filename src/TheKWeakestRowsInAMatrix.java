@@ -3,13 +3,25 @@ import java.util.Queue;
 
 public class TheKWeakestRowsInAMatrix {
     public int[] kWeakestRows(int[][] mat, int k) {
-        Queue<Row> minHeap = new PriorityQueue<>();
-        for (int[] row: mat) {
-            minHeap.add()
+        final Queue<Row> minHeap = new PriorityQueue<>();
+        for (int index = 0 ; index < mat.length ; index++) {
+            minHeap.add(Row.from(mat[index], index));
         }
+        final int[] result = new int[k];
+        for (int i = 0 ; i < result.length ; i++) {
+            result[i] = minHeap.poll().index;
+        }
+        return result;
     }
 
-    private record Row(int index, int soldiers) implements Comparable<Row> {
+    private static final class Row implements Comparable<Row> {
+        private final int index;
+        private final int soldiers;
+
+        private Row(int index, int soldiers) {
+            this.index = index;
+            this.soldiers = soldiers;
+        }
 
         @Override
         public int compareTo(Row other) {
@@ -20,7 +32,11 @@ public class TheKWeakestRowsInAMatrix {
         }
 
         private static Row from(int[] row, int index) {
-            for (int)
+            int soldiers = 0;
+            for (int i = 0; i < row.length && row[i] == 1; i++) {
+                soldiers++;
+            }
+            return new Row(index, soldiers);
         }
     }
 }
