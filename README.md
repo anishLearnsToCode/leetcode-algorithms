@@ -1,7 +1,7 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-314/2081-1f425f.svg)
-![problems-solved-java](https://img.shields.io/badge/Java-314/2081-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-326/2081-1f425f.svg)
+![problems-solved-java](https://img.shields.io/badge/Java-326/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-186/2081-1abc9c.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![cp](https://img.shields.io/badge/also%20see-Competitve%20Programming-1f72ff.svg)](https://github.com/anishLearnsToCode/competitive-programming)
@@ -400,4 +400,5 @@
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words)                                                       |                                                           [![Java](assets/java.png)](src/RearrangeSpacesBetweenWords.java)                                                           |                                                                                                                                   |
 | 1598 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder)                                                                               |                                                                [![Java](assets/java.png)](src/CrawlerLogFolder.java)                                                                 |                                                                                                                                   |
 | 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system)                                                                         |                                                               [![Java](assets/java.png)](src/DesignParkingSystem.java)                                                               |                                                                                                                                   |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x)         |                                                  [![Java](assets/java.png)](src/SpecialArrayWithXElementsGreaterThanEqualToX.java)                                                   |                                                                                                                                   |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses)                                   |                                                       [![Java](assets/java.png)](src/MaximumNestingDepthOfTheParentheses.java)                                                       |                                                                                                                                   |
