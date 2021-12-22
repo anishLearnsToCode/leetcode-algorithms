@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/sign-of-the-product-of-an-array
+// T: O(N)
+// S: O(1)
+
 public class SignOfTheProductOfAnArray {
     public int arraySign(int[] nums) {
         int sign = 1;
