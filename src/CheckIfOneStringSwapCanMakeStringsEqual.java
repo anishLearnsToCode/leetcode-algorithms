@@ -14,6 +14,7 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
     }
 
     private boolean areSameChars(String s1, String s2, Queue<Integer> differenceIndexes) {
-        
+        final int i = differenceIndexes.poll() , j = differenceIndexes.poll();
+        return s1.charAt(i) == s2.charAt(j) && s1.charAt(j) == s2.charAt(i);
     }
 }
