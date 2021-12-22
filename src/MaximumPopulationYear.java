@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/maximum-population-year
+// T: O(N)
+// S: O(1)
+
 public class MaximumPopulationYear {
     public int maximumPopulation(int[][] logs) {
         final int[] population = new int[101];
