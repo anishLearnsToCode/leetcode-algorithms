@@ -1,6 +1,6 @@
 public class DetermineWhetherMatrixCanBeObtainedByRotation {
     public boolean findRotation(int[][] mat, int[][] target) {
-        boolean[] c = new boolean[4];
+        boolean[] c = getTrueArray(4);
         int n = mat.length;
         for(int i = 0 ; i < n ; i++) {
             for(int j = 0 ; j < n ; j++) {
@@ -12,5 +12,13 @@ public class DetermineWhetherMatrixCanBeObtainedByRotation {
         }
 
         return c[0] || c[1] || c[2] || c[3];
+    }
+
+    private boolean[] getTrueArray(int size) {
+        boolean[] array = new boolean[size];
+        for (int i = 0 ; i < size ; i++) {
+            array[i] = true;
+        }
+        return array;
     }
 }
