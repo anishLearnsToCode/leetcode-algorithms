@@ -16,7 +16,7 @@ public class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
     }
 
     private Map<Character, Integer> getCharacterFrequencies(String s) {
-        final Map<Character, Integer> characterFrequencies = new HashMap<>();
+        final Map<Character, Integer> characterFrequencies = new HashMap<>(26);
         for (int i = 0 ; i < s.length() ; i++) {
             characterFrequencies.put(s.charAt(i), characterFrequencies.getOrDefault(s.charAt(i), 0) + 1);
         }
