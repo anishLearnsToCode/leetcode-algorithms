@@ -1,35 +1,29 @@
 // https://leetcode.com/problems/longest-palindromic-substring
+// T: O(n^2)
+// S: O(1)
 
 public class LongestPalindromicSubstring {
-    public static void main(String[] args) {
-        System.out.println(isPalindrome("caba", 1, 4));
-    }
-
-    public static String longestPalindrome(String s) {
-        final String s2 = new StringBuilder(s).reverse().toString();
-        final int rows = s.length() + 1, columns = s2.length() + 1;
-        final int[][] dp = new int[2][columns];
-        int maxLength = 0, startIndex = -1;
-
-        for (int row = 1, i = 1 ; row < rows ; row++, i ^= 1) {
-            for (int column = 1 ; column < columns ; column++) {
-                dp[i][column] = s.charAt(row - 1) == s2.charAt(column - 1) ? dp[i ^ 1][column - 1] + 1 : 0;
-                if (dp[i][column] > maxLength && isPalindrome(s, row - dp[i][column], row)) {
-                    maxLength = dp[i][column];
-                    startIndex = row - maxLength;
-                }
+    public String longestPalindrome(String s) {
+        if (s.length() < 2) return s;
+        int maxLen = 0, startIndex = -1;
+        for (int i = 0, len ; i < s.length() - 1 ; i++) {
+            len = palindromeLengthFromCenter(s, i, i);
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                len = Math.max(len, palindromeLengthFromCenter(s, i, i + 1));
+            }
+            if (len > maxLen) {
+                maxLen = len;
+                startIndex = i - (maxLen - 1) / 2;
             }
         }
-
-        return s.substring(startIndex, startIndex + maxLength);
+        return s.substring(startIndex, startIndex + maxLen);
     }
 
-    private static boolean isPalindrome(String s, int start, int end) {
-        for (int i = start ; i < start + (end - start) / 2 ; i++) {
-            if (s.charAt(i) != s.charAt(end - i - 1 + start)) {
-                return false;
-            }
+    private int palindromeLengthFromCenter(String s, int left, int right) {
+        while (left - 1 >= 0 && right + 1 < s.length() && s.charAt(left - 1) == s.charAt(right + 1)) {
+            left--;
+            right++;
         }
-        return true;
+        return right - left + 1;
     }
 }
