@@ -1,55 +1,46 @@
+// T: O(n)
+// S: O(1)
+
 public class ReverseLinkedListII {
-    private static class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
+        ListNode() {}
         ListNode(int val) { this.val = val; }
-
-        @Override
-        public String toString() {
-            if (next == null) return "ListNode{val=" + val + ", next=null}";
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    public ListNode reverseBetween(ListNode head, int m, int n) {
-        if (head == null || m == n) {
-            return head;
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if (left == right) return head;
+
+        ListNode start = new ListNode();
+        start.next = head;
+
+        ListNode temp = start;
+        int i = 1;
+        for ( ; i < left ; i++) {
+            temp = temp.next;
         }
 
-        // Move the two pointers until they reach the proper starting point
-        // in the list.
-        ListNode cur = head, prev = null;
-        while (m > 1) {
-            prev = cur;
-            cur = cur.next;
-            m--;
-            n--;
+        ListNode a = temp.next, b = temp.next.next, c = temp.next.next.next;
+        a.next = null;
+
+        for ( ; i < right && c != null; i++) {
+            b.next = a;
+            a = b;
+            b = c;
+            c = c.next;
         }
-
-        // The two pointers that will fix the final connections.
-        ListNode con = prev, tail = cur;
-
-        // Iteratively reverse the nodes until n becomes 0.
-        ListNode third = null;
-        while (n > 0) {
-            third = cur.next;
-            cur.next = prev;
-            prev = cur;
-            cur = third;
-            n--;
+        if (i < right) {
+            b.next = a;
+            if (left != 1) {
+                temp.next = b;
+                return start.next;
+            }
+            return b;
         }
-
-        // Adjust the final connections
-        if (con != null) {
-            con.next = prev;
-        } else {
-            head = prev;
-        }
-
-        tail.next = cur;
-        return head;
+        temp.next.next = b;
+        temp.next = a;
+        return start.next;
     }
 }
