@@ -1,3 +1,6 @@
+// T: O(n)
+// S: O(1)
+
 public class TrappingRainwater {
     public static int trap(int[] height) {
         int result = 0;
