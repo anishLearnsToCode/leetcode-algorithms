@@ -1,26 +1,25 @@
-import java.util.HashSet;
-import java.util.Set;
+// T: O(n)
+// S: O(1)
 
 public class LinkedListCycle {
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode(int x) {
-           val = x;
-           next = null;
+            val = x;
+            next = null;
         }
     }
 
     public boolean hasCycle(ListNode head) {
-        Set<ListNode> nodes = new HashSet<>();
-        while (head != null) {
-            if (nodes.contains(head)) {
-                return true;
-            } else {
-                nodes.add(head);
-            }
-            head = head.next;
+        if (head == null) return false;
+
+        for (ListNode slow = head, fast = head.next; fast != null && fast.next != null ; ) {
+            if (slow == fast) return true;
+            slow = slow.next;
+            fast = fast.next.next;
         }
+
         return false;
     }
 }
