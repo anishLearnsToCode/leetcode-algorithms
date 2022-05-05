@@ -1,48 +1,37 @@
 // https://leetcode.com/problems/valid-parentheses/
+// T: O(n)
+// S: O(n)
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
 public class ValidParentheses {
-    private static final Set<Character> openBrackets = new HashSet<>();
-    private static final Map<Character, Character> inverse = new HashMap<>();
+    private static final Set<Character> CLOSING_BRACES = Set.of(')', ']', '}');
 
-    static {
-        openBrackets.add('(');
-        openBrackets.add('{');
-        openBrackets.add('[');
-
-        inverse.put(')', '(');
-        inverse.put('}', '{');
-        inverse.put(']', '[');
-    }
-
-    public boolean isValid(String string) {
-        Stack<Character> brackets = new Stack<>();
-        for(int index = 0 ; index < string.length() ; index++) {
-            char character = string.charAt(index);
-            if (isOpenBracket(character)) {
-                brackets.push(character);
-            } else {
-                if (!brackets.isEmpty() && brackets.peek() == inverse(character)) {
-                    brackets.pop();
-                } else {
-                    return false;
-                }
-            }
+    public boolean isValid(String s) {
+        final Stack<Character> stack = new Stack<>();
+        char bracket;
+        for (int i = 0 ; i < s.length() ; i++) {
+            bracket = s.charAt(i);
+            if (isClosingBracket(bracket)) {
+                if (!stack.isEmpty() && areOpposites(stack.peek(), bracket)) {
+                    stack.pop();
+                } else return false;
+            } else stack.push(bracket);
         }
-
-        return brackets.isEmpty();
+        return stack.isEmpty();
     }
 
-    private char inverse(char bracket) {
-        return inverse.get(bracket);
+    private boolean isClosingBracket(char c) {
+        return CLOSING_BRACES.contains(c);
     }
 
-    private boolean isOpenBracket(char bracket) {
-        return openBrackets.contains(bracket);
+    private boolean areOpposites(char left, char right) {
+        return switch(left) {
+            case '(' -> right == ')';
+            case '[' -> right == ']';
+            case '{' -> right == '}';
+            default -> false;
+        };
     }
 }
