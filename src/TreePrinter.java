@@ -7,18 +7,14 @@ import java.util.List;
  *
  * @author saiteja
  */
-public class TreePrinter
-{
+public class TreePrinter {
     /** Node that can be printed */
-    public interface PrintableNode
-    {
+    public interface PrintableNode {
         /** Get left child */
         PrintableNode getLeft();
 
-
         /** Get right child */
         PrintableNode getRight();
-
 
         /** Get text to be printed */
         String getText();
@@ -31,8 +27,7 @@ public class TreePrinter
      * @param root
      *            tree root node
      */
-    public static void print(PrintableNode root)
-    {
+    public static void print(PrintableNode root) {
         List<List<String>> lines = new ArrayList<List<String>>();
 
         List<PrintableNode> level = new ArrayList<PrintableNode>();

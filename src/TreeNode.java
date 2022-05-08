@@ -1,4 +1,4 @@
-public class TreeNode {
+public class TreeNode implements TreePrinter.PrintableNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -8,5 +8,20 @@ public class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    @Override
+    public TreePrinter.PrintableNode getLeft() {
+        return this.left;
+    }
+
+    @Override
+    public TreePrinter.PrintableNode getRight() {
+        return this.right;
+    }
+
+    @Override
+    public String getText() {
+        return this.val + "";
     }
 }
