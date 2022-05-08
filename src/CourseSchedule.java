@@ -4,52 +4,56 @@
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+import java.util.Queue;
 
 public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        final Map<Integer, List<Integer>> dependencyGraph = getDependencyGraph(prerequisites);
-        return !containsLoop(dependencyGraph, numCourses);
-    }
+        final int[] inDegree = getInDegreeValues(prerequisites, numCourses);
+        final Queue<Integer> queue = queueWithInDegree0Vertices(inDegree);
+        final Map<Integer, List<Integer>> graph = getDependencyGraph(prerequisites);
 
-    private boolean containsLoop(Map<Integer, List<Integer>> graph, int numCourses) {
-        Set<Integer> computed = new HashSet<>();
-        for (int i = 0 ; i < numCourses ; i++) {
-            if (graph.containsKey(i)) {
-                if (computed.contains(i)) continue;
-                if (containsLoop(graph, i, computed)) {
-                    return true;
+        while (!queue.isEmpty()) {
+            int vertex = queue.poll();
+            if (graph.containsKey(vertex)) {
+                for (int adjacent : graph.get(vertex)) {
+                    inDegree[adjacent]--;
+                    if (inDegree[adjacent] == 0) queue.add(adjacent);
                 }
             }
         }
-        return false;
+
+        return allAreZero(inDegree);
     }
 
-    private boolean containsLoop(Map<Integer, List<Integer>> graph, int vertex, Set<Integer> computed) {
-        return containsLoop(graph, vertex, computed, new HashSet<>());
+    private boolean allAreZero(int[] array) {
+        for (int element : array) {
+            if (element != 0) return false;
+        }
+        return true;
     }
 
-    private boolean containsLoop(Map<Integer, List<Integer>> graph, int vertex, Set<Integer> computed, Set<Integer> visited) {
-        if (visited.contains(vertex)) return true;
-        if (computed.contains(vertex)) return false;
-        visited.add(vertex);
-        computed.add(vertex);
-        if (graph.containsKey(vertex)) {
-            List<Integer> dependsOn = graph.get(vertex);
-            for (int dependency : dependsOn) {
-                if (containsLoop(graph, dependency, computed, visited)) {
-                    return true;
-                }
+    private Queue<Integer> queueWithInDegree0Vertices(int[] inDegrees) {
+        final Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < inDegrees.length; i++) {
+            if (inDegrees[i] == 0) {
+                queue.add(i);
             }
         }
-        visited.remove(vertex);
-        return false;
+        return queue;
     }
 
-    private Map<Integer, List<Integer>> getDependencyGraph(int[][] prerequisites) {
+    private static int[] getInDegreeValues(int[][] preRequisites, int numCourses) {
+        int[] result = new int[numCourses];
+        for (int[] preRequisite: preRequisites) {
+            result[preRequisite[1]]++;
+        }
+        return result;
+    }
+
+    private static Map<Integer, List<Integer>> getDependencyGraph(int[][] prerequisites) {
         final Map<Integer, List<Integer>> dependencyGraph = new HashMap<>();
         for (int[] prerequisite : prerequisites) {
             if (!dependencyGraph.containsKey(prerequisite[0])) {
