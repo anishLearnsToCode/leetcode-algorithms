@@ -1,90 +1,97 @@
-import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.Objects;
 import java.util.Queue;
-import java.util.Set;
 
 public class RottingOranges {
-    private static final int EMPTY_CELL = 0;
+    private record RottenOrange(int row, int column, int time) {}
+
     private static final int FRESH_ORANGE = 1;
     private static final int ROTTEN_ORANGE = 2;
 
-    private static final class Orange {
-        private final int row;
-        private final int column;
-        private final int minutes;
+    public int orangesRotting(int[][] grid) {
+        final Queue<RottenOrange> queue = new LinkedList<>();
+        addAllRottenOrangesToQueue(grid, queue);
+        int elapsedTime = 0;
 
-        private Orange(int row, int column, int minutes) {
-            this.row = row;
-            this.column = column;
-            this.minutes = minutes;
+        while (!queue.isEmpty()) {
+            RottenOrange orange = queue.poll();
+            addAdjacentOrangesInQueue(orange, queue, grid);
+            elapsedTime = Math.max(elapsedTime, orange.time);
         }
 
-        @Override
-        public boolean equals(Object obj) {
-            if (obj == this) return true;
-            if (obj == null || obj.getClass() != this.getClass()) return false;
-            var that = (Orange) obj;
-            return this.row == that.row && this.column == that.column;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(row, column);
-        }
+        if (containsFreshOranges(grid)) return -1;
+        return elapsedTime;
     }
 
-    public static int orangesRotting(int[][] grid) {
-        final Queue<Orange> oranges = allRottingOranges(grid);
-        final Set<Orange> visited = new HashSet<>();
-        int result = 0;
-        while (!oranges.isEmpty()) {
-            Orange orange = oranges.poll();
-            if (!isValidPosition(orange, grid) || visited.contains(orange) || isEmptyCell(grid, orange)) {
-                continue;
-            }
-            visited.add(orange);
-            grid[orange.row][orange.column] = ROTTEN_ORANGE;
-            oranges.add(new Orange(orange.row - 1, orange.column, orange.minutes + 1));
-            oranges.add(new Orange(orange.row, orange.column + 1, orange.minutes + 1));
-            oranges.add(new Orange(orange.row + 1, orange.column, orange.minutes + 1));
-            oranges.add(new Orange(orange.row, orange.column - 1, orange.minutes + 1));
-            result = Math.max(result, orange.minutes);
-        }
-        if (allAreRotten(grid)) return result;
-        return -1;
-    }
-
-    private static boolean allAreRotten(int[][] grid) {
-        for (int[] row : grid) {
-            for (int orange : row) {
-                if (orange == FRESH_ORANGE) return false;
-            }
-        }
-        return true;
-    }
-
-    private static Queue<Orange> allRottingOranges(int[][] grid) {
-        final Queue<Orange> rottenOranges = new LinkedList<>();
+    private void addAllRottenOrangesToQueue(int[][] grid, final Queue<RottenOrange> queue) {
         for (int row = 0 ; row < grid.length ; row++) {
             for (int column = 0 ; column < grid[0].length ; column++) {
-                if (grid[row][column] == ROTTEN_ORANGE) {
-                    rottenOranges.add(new Orange(row, column, 0));
+                if (isRottenOrange(grid[row][column])) {
+                    queue.add(new RottenOrange(row, column, 0));
                 }
             }
         }
-        return rottenOranges;
     }
 
-    private static boolean isValidPosition(Orange orange, int[][] grid) {
-        return orange.row >= 0 && orange.row < grid.length && orange.column >= 0 && orange.column < grid[0].length;
+    private boolean isRottenOrange(int orange) {
+        return orange == ROTTEN_ORANGE;
     }
 
-    private static boolean isRotten(int[][] grid, Orange orange) {
-        return grid[orange.row][orange.column] == ROTTEN_ORANGE;
+    private boolean isFreshOrange(int orange) {
+        return orange == FRESH_ORANGE;
     }
 
-    private static boolean isEmptyCell(int[][] grid, Orange orange) {
-        return grid[orange.row][orange.column] == EMPTY_CELL;
+    private boolean containsFreshOranges(int[][] grid) {
+        for (int[] row : grid) {
+            for (int orange : row) {
+                if (isFreshOrange(orange)) return true;
+            }
+        }
+        return false;
+    }
+
+    private void addAdjacentOrangesInQueue(RottenOrange orange, Queue<RottenOrange> queue, int[][] grid) {
+        addOrangeOnTop(orange, queue, grid);
+        addOrangeOnRight(orange, queue, grid);
+        addOrangeOnBottom(orange, queue, grid);
+        addOrangeOnLeft(orange, queue, grid);
+    }
+
+    private void addOrangeOnTop(RottenOrange orange, Queue<RottenOrange> queue, int[][] grid) {
+        if (isValidPosition(grid, orange.row - 1, orange.column) && isFreshOrange(grid[orange.row - 1][orange.column])) {
+            markRotten(grid, orange.row - 1, orange.column);
+            queue.add(new RottenOrange(orange.row - 1, orange.column, orange.time + 1));
+        }
+    }
+
+    private void addOrangeOnRight(RottenOrange orange, Queue<RottenOrange> queue, int[][] grid) {
+        if (isValidPosition(grid, orange.row, orange.column + 1) && isFreshOrange(grid[orange.row][orange.column + 1])) {
+            markRotten(grid, orange.row, orange.column + 1);
+            queue.add(new RottenOrange(orange.row, orange.column + 1, orange.time + 1));
+        }
+    }
+
+    private void addOrangeOnBottom(RottenOrange orange, Queue<RottenOrange> queue, int[][] grid) {
+        if (isValidPosition(grid, orange.row + 1, orange.column) && isFreshOrange(grid[orange.row + 1][orange.column])) {
+            markRotten(grid, orange.row + 1, orange.column);
+            queue.add(new RottenOrange(orange.row + 1, orange.column, orange.time + 1));
+        }
+    }
+
+    private void addOrangeOnLeft(RottenOrange orange, Queue<RottenOrange> queue, int[][] grid) {
+        if (isValidPosition(grid, orange.row, orange.column - 1) && isFreshOrange(grid[orange.row][orange.column - 1])) {
+            markRotten(grid, orange.row, orange.column - 1);
+            queue.add(new RottenOrange(orange.row, orange.column - 1, orange.time + 1));
+        }
+    }
+
+    private boolean isValidPosition(int[][] grid, int row, int column) {
+        return row >= 0
+                && row < grid.length
+                && column >= 0
+                && column < grid[0].length;
+    }
+
+    private void markRotten(int[][] grid, int row, int column) {
+        grid[row][column] = ROTTEN_ORANGE;
     }
 }
