@@ -65,6 +65,14 @@ public class KnightProbabilityInChessboard {
         public int hashCode() {
             return 31 * row + column;
         }
+
+        @Override
+        public String toString() {
+            return "Position{" +
+                    "row=" + row +
+                    ", column=" + column +
+                    '}';
+        }
     }
 
     private record State(int n, int k, Position position) { }
@@ -85,6 +93,7 @@ public class KnightProbabilityInChessboard {
 
     public double knightProbability(int n, int k, int row, int column) {
         computeValidMovements(n);
+        System.out.println(allowedMovements);
         return getKnightProbability(n, k, new Position(row, column, n));
     }
 
