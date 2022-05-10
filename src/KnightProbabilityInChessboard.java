@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/knight-probability-in-chessboard
+// T: O(n^2 * k)
+// S: O(n^2)
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,7 +17,6 @@ public class KnightProbabilityInChessboard {
             this.n = n;
             this.row = row;
             this.column = column;
-
         }
 
         private void normalize() {
@@ -28,7 +31,7 @@ public class KnightProbabilityInChessboard {
 
         private int normalize(int index) {
             if (index >= (n + 1) / 2) {
-                return n - index;
+                return n - index - 1;
             }
             return index;
         }
@@ -46,13 +49,6 @@ public class KnightProbabilityInChessboard {
             };
         }
 
-        private boolean isValid() {
-            return row >= 0
-                    && row < n
-                    && column >= 0
-                    && column < n;
-        }
-
         @Override
         public boolean equals(Object o) {
             if (this == o) return true;
@@ -64,14 +60,6 @@ public class KnightProbabilityInChessboard {
         @Override
         public int hashCode() {
             return 31 * row + column;
-        }
-
-        @Override
-        public String toString() {
-            return "Position{" +
-                    "row=" + row +
-                    ", column=" + column +
-                    '}';
         }
     }
 
@@ -88,17 +76,16 @@ public class KnightProbabilityInChessboard {
         LEFT_BOTTOM
     }
 
-    private final Map<Position, List<Movement>> allowedMovements = new HashMap<>();
-    private final Map<State, Double> results = new HashMap<>();
+    private static final Map<Position, List<Movement>> allowedMovements = new HashMap<>();
+    private static final Map<State, Double> results = new HashMap<>();
+    private static int[][] validMoves;
 
-    public double knightProbability(int n, int k, int row, int column) {
+    public static double knightProbability(int n, int k, int row, int column) {
         computeValidMovements(n);
-        System.out.println(allowedMovements);
         return getKnightProbability(n, k, new Position(row, column, n));
     }
 
-    private double getKnightProbability(int n, int k, Position position) {
-        if (!position.isValid()) return 0;
+    private static double getKnightProbability(int n, int k, Position position) {
         if (k == 0) return 1;
 
         position.normalize();
@@ -111,26 +98,37 @@ public class KnightProbabilityInChessboard {
             return answer;
         }
 
-        int sumOfProbabilities = 0;
+        double sumOfProbabilities = 0;
         for (Movement movement : allowedMovements.get(position)) {
             Position newPosition = position.apply(movement);
             sumOfProbabilities += getKnightProbability(n, k - 1, newPosition);
         }
-        double answer = ((double) sumOfProbabilities) / 8;
+        double answer = sumOfProbabilities / 8;
         results.put(state, answer);
         return answer;
     }
 
-    private void computeValidMovements(int n) {
+    private static void computeValidMovements(int n) {
         for (int row = 0 ; row < (n + 1) / 2 ; row++) {
             for (int column = row ; column < (n + 1) / 2 ; column++) {
                 Position position = new Position(row, column, n);
                 allowedMovements.put(position, knightMovementsAt(position));
             }
         }
+        fillValidMovesTable(n);
     }
 
-    private List<Movement> knightMovementsAt(Position position) {
+    private static void fillValidMovesTable(int n) {
+        final int length = (n + 1) / 2;
+        validMoves = new int[length][length];
+        for (int row = 0 ; row < length ; row++) {
+            for (int column = row ; column < length ; column++) {
+                validMoves[row][column] = allowedMovements.get(new Position(row, column, n)).size();
+            }
+        }
+    }
+
+    private static List<Movement> knightMovementsAt(Position position) {
         final List<Movement> movements = new ArrayList<>();
         if (isValidIndices(position.row - 2, position.column - 1, position.n)) movements.add(Movement.TOP_LEFT);
         if (isValidIndices(position.row - 2, position.column + 1, position.n)) movements.add(Movement.TOP_RIGHT);
@@ -143,14 +141,14 @@ public class KnightProbabilityInChessboard {
         return movements;
     }
 
-    private boolean isValidIndices(int row, int column, int n) {
+    private static boolean isValidIndices(int row, int column, int n) {
         return row >= 0
                 && row < n
                 && column >= 0
                 && column < n;
     }
 
-    private int validMoves(Position position) {
-        return allowedMovements.get(position).size();
+    private static int validMoves(Position position) {
+        return validMoves[position.row][position.column];
     }
 }
