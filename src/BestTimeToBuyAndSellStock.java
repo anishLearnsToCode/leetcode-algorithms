@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+// T: O(n)
+// S: O(1)
+
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) {
