@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/contains-duplicate
+// T: O(N)
+// S: O(N)
+
 import java.util.HashSet;
 import java.util.Set;
 

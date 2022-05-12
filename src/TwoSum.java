@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/two-sum/
+// T: O(N)
+// S: O(N)
 
 import java.util.Arrays;
 import java.util.HashMap;
