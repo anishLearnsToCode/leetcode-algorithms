@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/count-primes
+// T: O(n log(log(n)))
+// S: O(n)
+
 public class CountPrimes {
 
     public static int countPrimes(int number) {
