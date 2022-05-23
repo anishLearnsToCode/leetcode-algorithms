@@ -1,9 +1,4 @@
 public class SameTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {

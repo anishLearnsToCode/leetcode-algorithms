@@ -1,9 +1,4 @@
 public class InvertBinaryTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public static TreeNode invertTree(TreeNode root) {
         if (root == null) {

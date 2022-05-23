@@ -2,24 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreePaths {
-    public static void main(String[] args) {
-        String[] array = {"hello", "1", "2"};
-        List<CharSequence> list = new ArrayList<>();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        System.out.println(String.join("->", list));
-    }
-
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public static List<String> binaryTreePaths(TreeNode root) {
         List<String> result = new ArrayList<>();
-        binaryTreePaths(root, new ArrayList<CharSequence>(), result);
+        binaryTreePaths(root, new ArrayList<>(), result);
         return result;
     }
 

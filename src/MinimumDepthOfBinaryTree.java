@@ -1,9 +1,4 @@
 public class MinimumDepthOfBinaryTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public static int minDepth(TreeNode root) {
         if (root == null) {

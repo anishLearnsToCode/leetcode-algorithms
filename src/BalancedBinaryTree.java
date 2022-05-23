@@ -1,9 +1,4 @@
 public class BalancedBinaryTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public static boolean isBalanced(TreeNode root) {
         return height(root) != -1;

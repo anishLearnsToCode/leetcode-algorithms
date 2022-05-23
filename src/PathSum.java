@@ -1,9 +1,4 @@
 public class PathSum {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public static boolean hasPathSum(TreeNode root, int sum) {
         return root != null && hasPathSum(root, sum, root.val);

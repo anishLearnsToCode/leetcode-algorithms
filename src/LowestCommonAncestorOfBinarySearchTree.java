@@ -2,11 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LowestCommonAncestorOfBinarySearchTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         List<TreeNode> pathToP = pathTo(root, p);

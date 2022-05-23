@@ -1,9 +1,4 @@
 public class SymmetricTree {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     public boolean isSymmetric(TreeNode root) {
         return root == null || isSymmetric(root.left, root.right);

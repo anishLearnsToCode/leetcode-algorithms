@@ -5,11 +5,6 @@ import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversalII {
-    private static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-    }
 
     private static class Pair {
         TreeNode tree;
