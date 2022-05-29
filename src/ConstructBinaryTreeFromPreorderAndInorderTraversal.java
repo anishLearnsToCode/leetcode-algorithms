@@ -15,7 +15,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     }
 
     private TreeNode buildTree(int[] preOrder, int[] inOrder, int start, int end) {
-        if (start >= end) return null;
+        if (start == end) return null;
 
         int inOrderIndex = inOrderIndices.get(preOrder[preOrderIndex]);
         final TreeNode root = new TreeNode(preOrder[preOrderIndex++]);
