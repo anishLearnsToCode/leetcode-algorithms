@@ -10,17 +10,17 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
     int[] postOrder;
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        inOrderIndices = getIndicesMap(inorder);
+        this.inOrderIndices = getIndicesMap(inorder);
         this.postOrder = postorder;
         return buildTreePostIn(0, inorder.length - 1, 0, postorder.length - 1);
     }
 
-    private TreeNode buildTreePostIn(int is, int ie, int ps, int pe){
-        if (ps > pe || is > ie) return null;
-        final TreeNode root = new TreeNode(postOrder[pe]);
-        int ri = inOrderIndices.get(postOrder[pe]);
-        root.left = buildTreePostIn(is, ri-1, ps, ps+ri-is-1);
-        root.right = buildTreePostIn(ri+1, ie, ps+ri-is, pe-1);
+    private TreeNode buildTreePostIn(int inOrderStart, int inOrderEnd, int postOrderStart, int postOrderEnd) {
+        if (postOrderStart > postOrderEnd || inOrderStart > inOrderEnd) return null;
+        final TreeNode root = new TreeNode(postOrder[postOrderEnd]);
+        int ri = inOrderIndices.get(postOrder[postOrderEnd]);
+        root.left = buildTreePostIn(inOrderStart, ri - 1, postOrderStart, postOrderStart + ri - inOrderStart - 1);
+        root.right = buildTreePostIn(ri + 1, inOrderEnd, postOrderStart + ri - inOrderStart, postOrderEnd - 1);
         return root;
     }
 
