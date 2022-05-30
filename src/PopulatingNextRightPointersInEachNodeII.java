@@ -1,11 +1,11 @@
-// https://leetcode.com/problems/populating-next-right-pointers-in-each-node
+// https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii
 // T: O(n)
 // S: O(n)
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PopulatingNextRightPointersInEachNode {
+public class PopulatingNextRightPointersInEachNodeII {
     public static Node connect(Node root) {
         if (root == null) return null;
 
