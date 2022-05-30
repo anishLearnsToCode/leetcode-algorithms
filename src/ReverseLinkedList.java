@@ -1,8 +1,7 @@
+// T: O(n)
+// S: O(1)
+
 public class ReverseLinkedList {
-    private static class ListNode {
-        int val;
-        ListNode next;
-    }
 
     public static ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {

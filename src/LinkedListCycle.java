@@ -2,15 +2,6 @@
 // S: O(1)
 
 public class LinkedListCycle {
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;
 

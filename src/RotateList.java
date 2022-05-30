@@ -3,13 +3,6 @@
 // S: O(1)
 
 public class RotateList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
 
     public ListNode rotateRight(ListNode head, int k) {
         final int length = getLength(head);

@@ -1,8 +1,4 @@
 public class DeleteANodeInLinkedList {
-    private static class ListNode {
-        int val;
-        ListNode next;
-    }
 
     public static void deleteNode(ListNode node) {
         ListNode current = node;

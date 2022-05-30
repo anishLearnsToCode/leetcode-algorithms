@@ -3,10 +3,6 @@
 // S: O(1)
 
 public class RemoveDuplicatesFromSortedListII {
-    private static class ListNode {
-        int val;
-        ListNode next;
-    }
 
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;

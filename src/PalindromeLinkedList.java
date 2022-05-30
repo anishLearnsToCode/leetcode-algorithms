@@ -2,10 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PalindromeLinkedList {
-    private static class ListNode {
-        int val;
-        ListNode next;
-    }
 
     public static boolean isPalindrome(ListNode head) {
         List<Integer> list = listFrom(head);

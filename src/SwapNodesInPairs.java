@@ -3,15 +3,6 @@
 // S: O(1)
 
 public class SwapNodesInPairs {
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;

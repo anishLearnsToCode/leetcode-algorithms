@@ -3,11 +3,6 @@
 // S: O(1)
 
 public class PartitionList {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-    }
 
     public ListNode partition(ListNode head, int x) {
         ListNode beforeHead = new ListNode(), beforeTemp = beforeHead;
