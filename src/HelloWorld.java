@@ -1,5 +1,12 @@
+import java.util.Map;
+
+import static java.util.Map.entry;
+
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println(PalindromePartitioning.partition("abbab"));
+        Map<String, Object> map = Map.of(
+                "hello", null,
+                "", null
+        );
     }
 }
