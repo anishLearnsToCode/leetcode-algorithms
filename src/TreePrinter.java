@@ -28,10 +28,10 @@ public class TreePrinter {
      *            tree root node
      */
     public static void print(PrintableNode root) {
-        List<List<String>> lines = new ArrayList<List<String>>();
+        List<List<String>> lines = new ArrayList<>();
 
-        List<PrintableNode> level = new ArrayList<PrintableNode>();
-        List<PrintableNode> next = new ArrayList<PrintableNode>();
+        List<PrintableNode> level = new ArrayList<>();
+        List<PrintableNode> next = new ArrayList<>();
 
         level.add(root);
         int nn = 1;
@@ -86,7 +86,7 @@ public class TreePrinter {
                         if (line.get(j - 1) != null) {
                             c = (line.get(j) != null) ? '┴' : '┘';
                         } else {
-                            if (j < line.size() && line.get(j) != null) c = '└';
+                            if (line.get(j) != null) c = '└';
                         }
                     }
                     System.out.print(c);
@@ -111,9 +111,8 @@ public class TreePrinter {
             }
 
             // print line of numbers
-            for (int j = 0; j < line.size(); j++) {
+            for (String f : line) {
 
-                String f = line.get(j);
                 if (f == null) f = "";
                 int gap1 = (int) Math.ceil(perpiece / 2f - f.length() / 2f);
                 int gap2 = (int) Math.floor(perpiece / 2f - f.length() / 2f);
