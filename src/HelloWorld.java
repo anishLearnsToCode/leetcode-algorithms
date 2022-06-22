@@ -1,7 +1,5 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println(
-                MaximumProductSubarray.maxProduct(new int[] {-4, -3, -2})
-        );
+        System.out.println(CompareVersionNumbers.compareVersion("0.1", "1.1"));
     }
 }
