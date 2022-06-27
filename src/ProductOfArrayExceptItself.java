@@ -4,34 +4,25 @@
 
 public class ProductOfArrayExceptItself {
 
-    private record ProductDetails(int nonZeroProduct, int numberOfZeros) { }
-
     public int[] productExceptSelf(int[] nums) {
-        final ProductDetails productDetails = getProductDetails(nums);
-        if (productDetails.numberOfZeros > 1) return new int[nums.length];
-        if (productDetails.numberOfZeros == 1) return productSumOnlyWhenZero(nums, productDetails.nonZeroProduct);
         final int[] result = new int[nums.length];
-        for (int i = 0 ; i < result.length ; i++) {
-            result[i] = productDetails.nonZeroProduct / nums[i];
-        }
+        multipleWithLeftPrefix(nums, result);
+        multiplyWithRightPostfix(nums, result);
         return result;
     }
 
-    private int[] productSumOnlyWhenZero(int[] array, int product) {
-        final int[] result = new int[array.length];
-        for (int i = 0 ; i < array.length ; i++) {
-            if (array[i] == 0) result[i] = product;
+    private void multipleWithLeftPrefix(int[] numbers, int[] result) {
+        result[0] = 1;
+        for(int i = 1 ; i < numbers.length ; i++) {
+            result[i] = result[i - 1] * numbers[i - 1];
         }
-        return result;
     }
 
-    private ProductDetails getProductDetails(int[] array) {
-        int numberOfZeros = 0;
-        int nonZeroProduct = 1;
-        for (int element : array) {
-            if (element == 0) numberOfZeros++;
-            else nonZeroProduct *= element;
+    private void multiplyWithRightPostfix(int[] numbers, int[] result) {
+        int right = 1;
+        for(int i = result.length - 1 ; i >= 0 ; i--) {
+            result[i] *= right;
+            right *= numbers[i];
         }
-        return new ProductDetails(nonZeroProduct, numberOfZeros);
     }
 }
