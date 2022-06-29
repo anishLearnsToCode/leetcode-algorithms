@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/ugly-number
+// T: O(log(N))
+// S: O(1)
+
 public class UglyNumber {
     public static boolean isUgly(int number) {
         if (number <= 0) {
