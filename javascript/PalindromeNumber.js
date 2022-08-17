@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/palindrome-number
+// T: O(log(n))
+// S: O(1)
+
 const isPalindrome = (x) => {
   if (x < 0 || (x % 10 === 0 && x !== 0)) {
     return false;
