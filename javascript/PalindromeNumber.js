@@ -2,7 +2,7 @@
 // T: O(log(n))
 // S: O(1)
 
-const isPalindrome = (x) => {
+const isPalindrome = x => {
   if (x < 0 || (x % 10 === 0 && x !== 0)) {
     return false;
   }
@@ -13,8 +13,6 @@ const isPalindrome = (x) => {
     sum = sum * 10 + remainder;
     x = Math.floor(x / 10);
   }
-  if (sum === result) {
-    return true;
-  }
-  return false;
+
+  return sum === result;
 };
