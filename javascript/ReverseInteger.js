@@ -20,5 +20,3 @@ const reverse = x => {
 
   return isNegative ? -result : result;
 };
-
-console.log(reverse(120))
