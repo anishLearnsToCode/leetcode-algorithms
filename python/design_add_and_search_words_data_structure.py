@@ -34,4 +34,3 @@ class WordDictionary:
                     curr = curr.children[ch]
             return curr.word
         return dfs(0, self.root)
-
