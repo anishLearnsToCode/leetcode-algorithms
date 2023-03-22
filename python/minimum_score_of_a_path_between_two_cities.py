@@ -1,3 +1,7 @@
+# https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/
+# T: O(N + M) where N is the number of nodes and M is the number of edges
+# S: O(N + M) where N is the number of nodes and M is the number of edges
+
 from collections import deque
 
 class Solution:

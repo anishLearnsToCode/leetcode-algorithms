@@ -1,3 +1,7 @@
+# https://leetcode.com/problems/number-of-zero-filled-subarrays/
+# T: O(N) where N is the length of nums
+# S: O(1)
+
 class Solution:
     def zeroFilledSubarray(self, nums) -> int:
         count = 0

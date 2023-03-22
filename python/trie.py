@@ -1,3 +1,7 @@
+# https://leetcode.com/problems/implement-trie-prefix-tree/
+# T: O(N) where N is the length of the word
+# S: O(MN) where M is the number of words, N is the maximum length of the word
+
 class TrieNode:
     def __init__(self):
         self.children = {}

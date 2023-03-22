@@ -1,3 +1,7 @@
+# https://leetcode.com/problems/the-skyline-problem/
+# T: O(NlogN) where N is the number of buildings
+# S: O(N) where N is the number of buildings
+
 import bisect
 
 class Solution:
