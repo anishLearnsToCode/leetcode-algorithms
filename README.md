@@ -1,6 +1,6 @@
 # LeetCode Algorithms
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-542/2081-1f425f.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-570/2081-1f425f.svg)
 ![problems-solved-java](https://img.shields.io/badge/Java-556/2081-1abc9c.svg)
 ![problems-solved-python](https://img.shields.io/badge/Python-205/2081-1abc9c.svg)
 ![problems-solved-javascript](https://img.shields.io/badge/JavaScript-4/2081-1abc9c.svg)
