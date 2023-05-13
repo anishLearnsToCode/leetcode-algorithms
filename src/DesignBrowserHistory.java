@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class BrowserHistory {
     private List<String> history;
     private int ptr;
