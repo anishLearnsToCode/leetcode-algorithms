@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points
+// T: O(N log(N))
+// S: O(log(N))
+
 import java.util.Arrays;
 import java.util.Comparator;
 
