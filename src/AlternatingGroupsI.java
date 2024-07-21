@@ -14,6 +14,6 @@ public class AlternatingGroupsI {
     }
     private static boolean isAlternating(int[] colors, int startIndex) {
         return colors[startIndex] == colors[(startIndex + 2) % colors.length] &&
-                colors[startIndex] != colors[(startIndex + 1) % colors.length]
+                colors[startIndex] != colors[(startIndex + 1) % colors.length];
     }
 }
