@@ -1,6 +1,12 @@
-import java.util.*;
+// https://leetcode.com/problems/insert-delete-getrandom-o1
 
-public class HelloWorld {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+public class InsertDeleteGetRandomO1 {
     static class RandomizedSet {
         private final Random random = new Random();
         private final List<Integer> list = new ArrayList<>();
