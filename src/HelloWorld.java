@@ -1,39 +1,22 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class HelloWorld {
-    static class RandomizedSet {
-        private final Random random = new Random();
-        private final List<Integer> list = new ArrayList<>();
-        private final Map<Integer, Integer> indexMapping = new HashMap<>();
+    public int canCompleteCircuit(int[] gas, int[] cost) {
+        final int totalGas = Arrays.stream(gas).sum();
+        final int totalCost = Arrays.stream(cost).sum();
 
-        public boolean insert(int val) {
-            if (indexMapping.containsKey(val)) {
-                return false;
+        if (totalCost > totalGas) {
+            return -1;
+        }
+
+        int startingIndex = 0;
+        for (int i = 0, currentGas = 0 ; i < cost.length ; i++) {
+            currentGas += gas[i] - cost[i];
+            if (currentGas < 0) {
+                currentGas = 0;
+                startingIndex = i + 1;
             }
-            list.add(val);
-            indexMapping.put(val, list.size() - 1);
-            return true;
         }
-
-        private int last() {
-            return this.list.getLast();
-        }
-
-        public boolean remove(int val) {
-            if (!indexMapping.containsKey(val)) {
-                return false;
-            }
-            final int index = indexMapping.get(val);
-            indexMapping.put(last(), index);
-            indexMapping.remove(val);
-            list.set(index, last());
-            list.removeLast();
-            return true;
-        }
-
-        public int getRandom() {
-            final int randomIndex = random.nextInt(list.size());
-            return list.get(randomIndex);
-        }
+        return startingIndex;
     }
 }
