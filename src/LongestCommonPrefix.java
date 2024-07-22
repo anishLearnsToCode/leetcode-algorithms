@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/longest-common-prefix/
+// https://leetcode.com/problems/longest-common-prefix
+// T: O(|array| * |array[i]|)
+// S: O(|array[i]|)
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] array) {
