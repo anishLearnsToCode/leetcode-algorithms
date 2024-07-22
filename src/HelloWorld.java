@@ -1,22 +1,19 @@
-import java.util.Arrays;
-
 public class HelloWorld {
-    public int canCompleteCircuit(int[] gas, int[] cost) {
-        final int totalGas = Arrays.stream(gas).sum();
-        final int totalCost = Arrays.stream(cost).sum();
+    public int lengthOfLastWord(String s) {
+        int i = s.length() - 1;
 
-        if (totalCost > totalGas) {
-            return -1;
+        // skip all spaces at the end of the word
+        while (i >= 0 && s.charAt(i) == ' ') {
+            i--;
         }
 
-        int startingIndex = 0;
-        for (int i = 0, currentGas = 0 ; i < cost.length ; i++) {
-            currentGas += gas[i] - cost[i];
-            if (currentGas < 0) {
-                currentGas = 0;
-                startingIndex = i + 1;
-            }
+        final int wordEndIndex = i;
+
+        // arrive at the start of the word
+        while (i >= 0 && s.charAt(i) != ' ') {
+            i--;
         }
-        return startingIndex;
+
+        return wordEndIndex - i;
     }
 }

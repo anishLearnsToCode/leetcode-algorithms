@@ -1,35 +1,41 @@
-// https://leetcode.com/problems/roman-to-integer/
+// https://leetcode.com/problems/roman-to-integer
+// T: O(|S|)
+// S: O(1)
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
+import java.util.Set;
 
 public class RomanToInteger {
-    private static final Map<Character, Integer> romanNumerals = new HashMap<>();
+    private static final Map<Character, Integer> ROMAN_NUMERALS = Map.of(
+            'I', 1,
+            'V', 5,
+            'X', 10,
+            'L', 50,
+            'C', 100,
+            'D', 500,
+            'M', 1000
+    );
 
-    static {
-        romanNumerals.put('I', 1);
-        romanNumerals.put('V', 5);
-        romanNumerals.put('X', 10);
-        romanNumerals.put('L', 50);
-        romanNumerals.put('C', 100);
-        romanNumerals.put('D', 500);
-        romanNumerals.put('M', 1000);
-    }
+    private static final Map<Character, Set<Character>> DECREMENT_ROMAN_NUMERALS = Map.of(
+            'I', Set.of('V', 'X'),
+            'X', Set.of('L', 'C'),
+            'C', Set.of('D', 'M')
+    );
 
-    private static int romanToInt(String string) {
-        int value = 0;
-        for (int index = 0 ; index < string.length() ; index++) {
-            if (index < string.length() - 1 && value(string.charAt(index)) < value(string.charAt(index + 1))) {
-                value -= value(string.charAt(index));
+    public int romanToInt(String s) {
+        int number = 0;
+        for (int i = 0 ; i < s.length() ; ) {
+            final char c = s.charAt(i);
+            if (DECREMENT_ROMAN_NUMERALS.containsKey(c)
+                    && i + 1 < s.length()
+                    && DECREMENT_ROMAN_NUMERALS.get(c).contains(s.charAt(i + 1))) {
+                number += ROMAN_NUMERALS.get(s.charAt(i + 1)) - ROMAN_NUMERALS.get(c);
+                i += 2;
             } else {
-                value += value(string.charAt(index));
+                number += ROMAN_NUMERALS.get(c);
+                i++;
             }
         }
-        return value;
-    }
-
-    private static int value(char character) {
-        return romanNumerals.get(character);
+        return number;
     }
 }

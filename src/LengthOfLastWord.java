@@ -1,10 +1,23 @@
+// https://leetcode.com/problems/length-of-last-word
+// T: O(N)
+// S: O(1)
+
 public class LengthOfLastWord {
-    public int lengthOfLastWord(String sentence) {
-        String[] words = sentence.split(" ");
-        if (words.length == 0) {
-            return 0;
+    public int lengthOfLastWord(String s) {
+        int i = s.length() - 1;
+
+        // skip all spaces at the end of the word
+        while (i >= 0 && s.charAt(i) == ' ') {
+            i--;
         }
 
-        return words[words.length - 1].length();
+        final int wordEndIndex = i;
+
+        // arrive at the start of the word
+        while (i >= 0 && s.charAt(i) != ' ') {
+            i--;
+        }
+
+        return wordEndIndex - i;
     }
 }
