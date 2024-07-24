@@ -1,27 +1,35 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class HelloWorld {
-    public int strStr(String haystack, String needle) {
-        if (needle.length() > haystack.length()) {
-            return -1;
+    public int lengthOfLongestSubstring(String s) {
+        if (s.isEmpty()) {
+            return 0;
         }
 
-        for (int i = 0 ; i < haystack.length() ; i++) {
-            if (needle.charAt(0) == haystack.charAt(i) && containsAt(haystack, needle, i)) {
-                return i;
+        int maxLength = 1;
+        final Set<Character> slidingWindow = new HashSet<>() {{
+            add(s.charAt(0));
+        }};
+
+        for (int left = 0, right = 1, currentLength = 1 ; right < s.length() ; ) {
+            if (slidingWindow.contains(s.charAt(right))) {
+                slidingWindow.remove(s.charAt(left));
+                left++;
+                currentLength--;
+            } else {
+                slidingWindow.add(s.charAt(right));
+                currentLength++;
+                maxLength = Math.max(maxLength, currentLength);
+                right++;
             }
         }
 
-        return -1;
-    }
 
-    private static boolean containsAt(String haystack, String needle, int i) {
-        if (needle.length() > haystack.length() - i) {
-            return false;
-        }
-        for (int index = i + 1 ; index < haystack.length() && index - i < needle.length() ; index++) {
-            if (needle.charAt(index - i) != haystack.charAt(index)) {
-                return false;
-            }
-        }
-        return true;
+        return maxLength;
     }
 }
