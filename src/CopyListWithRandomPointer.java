@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/copy-list-with-random-pointer
 // T: O(N)
-// S: O(N)
+// S: O(1)
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,30 +18,40 @@ public class CopyListWithRandomPointer {
         }
     }
 
-    private static final Map<Node, Node> nodes = new HashMap<>();
-
-    public Node copyRandomList(Node head) {
-        if (head == null) return null;
-
-        for (Node current = head ; current != null ; current = current.next) {
-            Node node = getNode(current);
-            if (current.next != null) {
-                node.next = getNode(current.next);
-            }
-            if (current.random != null) {
-                node.random = getNode(current.random);
-            }
+    public HelloWorld.Node copyRandomList(HelloWorld.Node head) {
+        if (head == null) {
+            return null;
         }
 
-        return getNode(head);
+        createWeavedList(head);
+        linkRandomPointersForNewNodes(head);
+        return unweaveList(head);
     }
 
-    private Node getNode(Node node) {
-        if (nodes.containsKey(node)) {
-            return nodes.get(node);
+    // A->B->C --> A->A'->B->B'
+    private static void createWeavedList(HelloWorld.Node head) {
+        for (HelloWorld.Node i = head; i != null ; i = i.next.next) {
+            HelloWorld.Node newNode = new HelloWorld.Node(i.val);
+            newNode.next = i.next;
+            i.next = newNode;
         }
-        Node copyNode = new Node(node.val);
-        nodes.put(node, copyNode);
-        return copyNode;
+    }
+
+    private static void linkRandomPointersForNewNodes(HelloWorld.Node head) {
+        for (HelloWorld.Node i = head; i != null ; i = i.next.next) {
+            if (i.random == null) {
+                continue;
+            }
+            i.next.random = i.random.next;
+        }
+    }
+
+    private static HelloWorld.Node unweaveList(HelloWorld.Node head) {
+        final HelloWorld.Node pointerNew = head.next;
+        for (HelloWorld.Node old = head, i = head.next; i != null && old != null ; i = i.next, old = old.next) {
+            old.next = old.next == null ? null : old.next.next;
+            i.next = i.next == null ? null : i.next.next;
+        }
+        return pointerNew;
     }
 }

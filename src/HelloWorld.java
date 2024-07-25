@@ -1,35 +1,67 @@
-import java.util.Set;
-import java.util.Stack;
-
 public class HelloWorld {
-    private static final Set<String> OPERATORS = Set.of("+", "-", "*", "/");
+    public static class Node {
+        int val;
+        Node next;
+        Node random;
 
-    public int evalRPN(String[] tokens) {
-        final Stack<Integer> stack = new Stack<>();
-        for (String token : tokens) {
-            if (isOperator(token)) {
-                final int second = stack.pop();
-                final int first = stack.pop();
-                final int result = apply(token, first, second);
-                stack.push(result);
-            } else {
-                stack.push(Integer.parseInt(token));
-            }
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
         }
-        return stack.peek();
     }
 
-    private static boolean isOperator(String token) {
-        return OPERATORS.contains(token);
+    /*
+// Definition for a Node.
+class Node {
+    public int val;
+    public Node next;
+    public Node random;
+
+    public Node() {}
+
+    public Node(int _val,Node _next,Node _random) {
+        val = _val;
+        next = _next;
+        random = _random;
+    }
+};
+*/
+
+    public Node copyRandomList(Node head) {
+        if (head == null) {
+            return null;
+        }
+
+        createWeavedList(head);
+        linkRandomPointersForNewNodes(head);
+        return unweaveList(head);
     }
 
-    private static int apply(String operator, int first, int second) {
-        return switch (operator) {
-            case "+" -> first + second;
-            case "-" -> first - second;
-            case "/" -> first / second;
-            case "*" -> first * second;
-            default -> 0;
-        };
+    // A->B->C --> A->A'->B->B'
+    private static void createWeavedList(Node head) {
+        for (Node i = head ; i != null ; i = i.next.next) {
+            Node newNode = new Node(i.val);
+            newNode.next = i.next;
+            i.next = newNode;
+        }
+    }
+
+    private static void linkRandomPointersForNewNodes(Node head) {
+        for (Node i = head ; i != null ; i = i.next.next) {
+            if (i.random == null) {
+                continue;
+            }
+            i.next.random = i.random.next;
+        }
+    }
+
+    private static Node unweaveList(Node head) {
+        final Node pointerNew = head.next;
+        for (Node old = head, i = head.next ; i != null && old != null ; i = i.next, old = old.next) {
+            old.next = old.next == null ? null : old.next.next;
+            i.next = i.next == null ? null : i.next.next;
+        }
+        return pointerNew;
     }
 }
