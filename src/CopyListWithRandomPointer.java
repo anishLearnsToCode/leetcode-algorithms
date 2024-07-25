@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CopyListWithRandomPointer {
-    private static final class Node {
+    public static final class Node {
         int val;
         Node next;
         Node random;
@@ -18,7 +18,7 @@ public class CopyListWithRandomPointer {
         }
     }
 
-    public HelloWorld.Node copyRandomList(HelloWorld.Node head) {
+    public Node copyRandomList(Node head) {
         if (head == null) {
             return null;
         }
@@ -29,16 +29,16 @@ public class CopyListWithRandomPointer {
     }
 
     // A->B->C --> A->A'->B->B'
-    private static void createWeavedList(HelloWorld.Node head) {
-        for (HelloWorld.Node i = head; i != null ; i = i.next.next) {
-            HelloWorld.Node newNode = new HelloWorld.Node(i.val);
+    private static void createWeavedList(Node head) {
+        for (Node i = head; i != null ; i = i.next.next) {
+            Node newNode = new Node(i.val);
             newNode.next = i.next;
             i.next = newNode;
         }
     }
 
-    private static void linkRandomPointersForNewNodes(HelloWorld.Node head) {
-        for (HelloWorld.Node i = head; i != null ; i = i.next.next) {
+    private static void linkRandomPointersForNewNodes(Node head) {
+        for (Node i = head; i != null ; i = i.next.next) {
             if (i.random == null) {
                 continue;
             }
@@ -46,9 +46,9 @@ public class CopyListWithRandomPointer {
         }
     }
 
-    private static HelloWorld.Node unweaveList(HelloWorld.Node head) {
-        final HelloWorld.Node pointerNew = head.next;
-        for (HelloWorld.Node old = head, i = head.next; i != null && old != null ; i = i.next, old = old.next) {
+    private static Node unweaveList(Node head) {
+        final Node pointerNew = head.next;
+        for (Node old = head, i = head.next; i != null && old != null ; i = i.next, old = old.next) {
             old.next = old.next == null ? null : old.next.next;
             i.next = i.next == null ? null : i.next.next;
         }
