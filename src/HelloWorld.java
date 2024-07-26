@@ -1,35 +1,25 @@
 public class HelloWorld {
-    public ListNode reverseBetween(ListNode head, int left, int right) {
-        if (head == null) {
-            return null;
+    private static int result = Integer.MIN_VALUE;
+
+    public static int maxPathSum(TreeNode root) {
+        result = Integer.MIN_VALUE;
+        if (root == null) {
+            return 0;
         }
-
-        ListNode result = new ListNode(0);
-        result.next = head;
-
-        ListNode start = result;
-        for (int i = 1 ; i < left ; i++) {
-            start = start.next;
-        }
-
-        ListNode startNext = start.next, a = startNext, b = start.next.next;
-        for (int count = left ; b != null && count < right ; count++) {
-            ListNode c = b.next;
-            b.next = a;
-            a = b;
-            b = c;
-        }
-
-        start.next = a;
-        startNext.next = b;
-
-        return result.next;
+        maxSum(root);
+        return result;
     }
 
-    public static void main(String[] args) {
-        ListNode node = new ListNode(1);
-        node.next = new ListNode(2);
-        node.next.next = new ListNode(3);
-        node.next.next.next = new ListNode(4);
+    private static int maxSum(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        final int maxGainLeftSubtree = Math.max(maxSum(root.left), 0);
+        final int maxGainRightSubtree = Math.max(maxSum(root.right), 0);
+        final int maxPathSum = root.val + maxGainLeftSubtree + maxGainRightSubtree;
+        result = Math.max(result, maxPathSum);
+
+        return Math.max(root.val + maxGainLeftSubtree, root.val + maxGainRightSubtree);
     }
 }

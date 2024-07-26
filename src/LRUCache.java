@@ -8,77 +8,82 @@ public class LRUCache {
     private static class Node {
         int key;
         int value;
-        Node next;
         Node previous;
+        Node next;
 
-        Node() { }
-        Node(int key, int value) {
+        public Node(int key, int value) {
             this.key = key;
             this.value = value;
         }
     }
 
-    private final int capacity;
     private final Map<Integer, Node> cache = new HashMap<>();
+    private final int capacity;
     private Node head, tail;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        head = new Node();
-        tail = new Node();
-        head.next = tail;
-        tail.previous = head;
     }
 
     public int get(int key) {
-        Node node = cache.get(key);
-        if(node == null) {
+        if (!cache.containsKey(key)) {
             return -1;
         }
-        moveToHead(node);
+        final Node node = cache.get(key);
+        moveNodeToTail(node);
         return node.value;
     }
 
     public void put(int key, int value) {
-        Node node = cache.get(key);
-
-        if(node == null) {
-            Node newNode = new Node(key, value);
-            this.cache.put(key, newNode);
-            this.addNode(newNode);
-
-            if(cache.size() > capacity){
-                Node tail = popTail();
-                this.cache.remove(tail.key);
-            }
-        } else {
+        if (cache.containsKey(key)) {
+            Node node = cache.get(key);
             node.value = value;
-            moveToHead(node);
+            moveNodeToTail(node);
+        } else if (cache.size() == capacity) {
+            Node node = new Node(key, value);
+            cache.put(key, node);
+            cache.remove(head.key);
+            appendToTail(node);
+            popHead();
+        } else {
+            Node node = new Node(key, value);
+            cache.put(key, node);
+
+            if (cache.size() == 1) {
+                head = node;
+                tail = node;
+            } else {
+                appendToTail(node);
+            }
         }
     }
 
-    private Node popTail(){
-        Node res = tail.previous;
-        this.removeNode(res);
-        return res;
+    private void moveNodeToTail(Node node) {
+        if (node == tail) {
+            return;
+        }
+
+        if (node == head) {
+            appendToTail(node);
+            popHead();
+            return;
+        }
+
+        Node previous = node.previous, next = node.next;
+        previous.next = next;
+        next.previous = previous;
+
+        appendToTail(node);
     }
 
-    private void addNode(Node node) {
-        node.previous = head;
-        node.next = head.next;
-        head.next.previous = node;
-        head.next = node;
+    private void appendToTail(Node node) {
+        tail.next = node;
+        node.previous = tail;
+        tail = node;
     }
 
-    private void removeNode(Node node){
-        Node pre = node.previous;
-        Node post = node.next;
-        pre.next = post;
-        post.previous = pre;
-    }
-
-    private void moveToHead(Node node){
-        this.removeNode(node);
-        this.addNode(node);
+    private void popHead() {
+        head = head.next;
+        head.previous = null;
     }
 }
