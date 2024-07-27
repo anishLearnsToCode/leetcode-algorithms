@@ -1,14 +1,14 @@
-// https://leetcode.com/problems/graph-valid-tree
+// https://leetcode.com/problems/redundant-connection
 // T: O(N)
 // S: O(N)
 
-public class GraphValidTree {
+public class RedundantConnection {
     private static final class DisjointSet {
         private final int[] root, rank;
 
         public DisjointSet(int size) {
-            root = new int[size];
-            rank = new int[size];
+            this.root = new int[size];
+            this.rank = new int[size];
             for (int i = 0 ; i < size ; i++) {
                 root[i] = i;
                 rank[i] = 1;
@@ -16,7 +16,7 @@ public class GraphValidTree {
         }
 
         public int find(int num) {
-            if (root[num] == num) {
+            if (num == root[num]) {
                 return num;
             }
             return root[num] = find(root[num]);
@@ -32,7 +32,7 @@ public class GraphValidTree {
                 return;
             }
             if (rank[rootX] < rank[rootY]) {
-                root[rootX] = rootY;
+                root[rootY] = rootX;
             } else if (rank[rootX] > rank[rootY]) {
                 root[rootY] = rootX;
             } else {
@@ -42,18 +42,14 @@ public class GraphValidTree {
         }
     }
 
-    public boolean validTree(int n, int[][] edges) {
-        if (edges.length != n - 1) {
-            return false;
-        }
-
-        final DisjointSet disjointSet = new DisjointSet(n);
+    public int[] findRedundantConnection(int[][] edges) {
+        final DisjointSet disjointSet = new DisjointSet(edges.length);
         for (int[] edge : edges) {
-            if (disjointSet.areConnected(edge[0], edge[1])) {
-                return false;
+            if (disjointSet.areConnected(edge[0] - 1, edge[1] - 1)) {
+                return edge;
             }
-            disjointSet.union(edge[0], edge[1]);
+            disjointSet.union(edge[0] - 1, edge[1] - 1);
         }
-        return true;
+        return new int[] {};
     }
 }
