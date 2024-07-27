@@ -1,76 +1,127 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Set;
+
+/*
+kahns algorithm
+t: O(V + E)
+S: O(E)
+ */
 
 public class HelloWorld {
-    public static class Node {
-        public int val;
-        public List<Node> neighbors;
-        public Node() {
-            val = 0;
-            neighbors = new ArrayList<>();
-        }
-        public Node(int _val) {
-            val = _val;
-            neighbors = new ArrayList<>();
-        }
-        public Node(int _val, ArrayList<Node> _neighbors) {
-            val = _val;
-            neighbors = _neighbors;
-        }
+    private static class QuickUnionFind {
+        private final int[] array;
 
-        @Override
-        public String toString() {
-            return "Node{" +
-                    "val=" + val +
-                    '}';
-        }
-    }
-
-    public static Node cloneGraph(Node root) {
-        final Queue<Node> queue = new LinkedList<>();
-        final Map<Node, Node> oldToNew = new HashMap<>();
-        final Set<Node> processed = new HashSet<>();
-        queue.add(root);
-
-        while (!queue.isEmpty()) {
-            final Node node = queue.poll();
-            if (processed.contains(node)) {
-                continue;
-            }
-            processed.add(node);
-
-            final Node newNode = oldToNew.getOrDefault(node, new Node(node.val));
-            oldToNew.putIfAbsent(node, newNode);
-
-            for (Node edge : node.neighbors) {
-                final Node newEdge = oldToNew.getOrDefault(edge, new Node(edge.val));
-                oldToNew.putIfAbsent(edge, newEdge);
-                newNode.neighbors.add(newEdge);
-                queue.add(edge);
+        public QuickUnionFind(int size) {
+            array = new int[size];
+            for (int i = 0 ; i < array.length ; i++) {
+                array[i] = i;
             }
         }
 
-        return oldToNew.get(root);
+        public void union(int x, int y) {
+            final int rootX = find(x), rootY = find(y);
+            if (rootY == rootX) {
+                return;
+            }
+
+            for (int i = 0 ; i < array.length ; i++) {
+                if (array[i] == rootY) {
+                    array[i] = rootX;
+                }
+            }
+        }
+
+        public int find(int num) {
+            return array[num];
+        }
+
+        public boolean areConnected(int x, int y) {
+            return find(x) == find(y);
+        }
     }
 
-    public static void main(String[] args) {
-        final Node node1 = new Node(1);
-        final Node node2 = new Node(2);
-        final Node node3 = new Node(3);
-        final Node node4 = new Node(4);
+    private static final class QuickUnionDisjointSet {
+        private final int[] array;
 
-        node1.neighbors.add(node2);
-        node1.neighbors.add(node4);
+        public QuickUnionDisjointSet(int size) {
+            array = new int[size];
+            for (int i = 0 ; i < array.length ; i++) {
+                array[i] = i;
+            }
+        }
 
-        node2.neighbors.add(node1);
-        node2.neighbors.add(node3);
+        public int find(int num) {
+            while (array[num] != num) {
+                num = array[num];
+            }
+            return num;
+        }
 
-        node3.neighbors.add(node2);
-        node3.neighbors.add(node4);
+        public boolean areConnected(int x, int y) {
+            return find(x) == find(y);
+        }
 
-        node4.neighbors.add(node1);
-        node4.neighbors.add(node3);
+        public void union(int x, int y) {
+            final int rootX = find(x), rootY = find(y);
+            if (rootX == rootY) {
+                return;
+            }
+            array[rootY] = rootX;
+        }
+    }
 
-        final Node clone = cloneGraph(node1);
-        System.out.println(clone);
+    private static final class DisjointSetRank {
+        private final int[] array;
+        private final int[] rank;
+
+        public DisjointSetRank(int size) {
+            array = new int[size];
+            rank = new int[size];
+            for (int i = 0 ; i < array.length ; i++) {
+                rank[i] = 1;
+                array[i] = i;
+            }
+        }
+
+        // T: O(logN)
+        // S: O(1)
+        public int find(int num) {
+            if (num == array[num]) {
+                return num;
+            }
+            final int root = find(array[num]);
+            array[num] = root;
+            return root;
+        }
+
+        // T: O(logN)
+        // S: O(1)
+        public void union(int x, int y) {
+            final int rootX = find(x), rootY = find(y);
+            if (rootX == rootY) {
+                return;
+            }
+            if (rank[rootX] > rank[rootY]) {
+                array[rootY] = rootX;
+            } else if (rank[rootX] < rank[rootY]) {
+                array[rootX] = rootY;
+            } else {
+                array[rootY] = rootX;
+                rank[rootX]++;
+            }
+        }
+
+        // T: O(logN)
+        // S: O(1)
+        public boolean areConnected(int x, int y) {
+            return find(x) == find(y);
+        }
     }
 }
