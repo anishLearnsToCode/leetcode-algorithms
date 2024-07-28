@@ -2,65 +2,77 @@
 // S: O(N)
 
 import java.security.cert.Certificate;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 
 
 public class HelloWorld {
-    public static class Node {
-        public int val;
-        public Node left;
-        public Node right;
-        public Node next;
+    private static final List<List<Integer>> DIRECTIONS = List.of(
+            List.of(1, 0),
+            List.of(0, 1),
+            List.of(-1, 0),
+            List.of(0, -1)
+    );
 
-        public Node() {}
-
-        public Node(int _val) {
-            val = _val;
-        }
-
-        public Node(int _val, Node _left, Node _right, Node _next) {
-            val = _val;
-            left = _left;
-            right = _right;
-            next = _next;
-        }
-    };
-
-    public Node connect(Node root) {
-        if (root == null) {
-            return null;
-        }
-
-        final Queue<Node> queue = new LinkedList<>();
-        queue.add(root);
-        queue.add(null);
-        Node current = null;
+    public int orangesRotting(int[][] grid) {
+        final Queue<int[]> queue = new LinkedList<>();
+        addRottenOrangesToQueue(queue, grid);
+        int maxTime = 0;
 
         while (!queue.isEmpty()) {
-            final Node node = queue.poll();
-            if (node == null) {
-                if (!queue.isEmpty()) {
-                    queue.add(null);
-                    current = null;
-                }
+            final int[] info = queue.poll();
+            final int row = info[0], column = info[1], time = info[2];
+
+            if (grid[row][column] == 0) {
                 continue;
             }
 
-            addChildrenToQueue(queue, node);
+            maxTime = Math.max(time, maxTime);
+            grid[row][column] = 0;
 
-            if (current != null) {
-                current.next = node;
+            for (int[] neighbour : getNeighbours(grid, row, column)) {
+                queue.add(new int[] { neighbour[0], neighbour[1], time + 1});
             }
-            current = node;
         }
 
-        return root;
+        if (containsFreshOranges(grid)) {
+            return -1;
+        }
+        return maxTime;
     }
 
-    private static void addChildrenToQueue(Queue<Node> queue, Node node) {
-        if (node.left != null) queue.add(node.left);
-        if (node.right != null) queue.add(node.right);
+    private static boolean containsFreshOranges(int[][] grid) {
+        for (int[] row : grid) {
+            for (int orange : row) {
+                if (orange == 1) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private static void addRottenOrangesToQueue(Queue<int[]> queue, int[][] grid) {
+        for(int row = 0 ; row < grid.length ; row++) {
+            for (int column = 0 ; column < grid[0].length ; column++) {
+                if (grid[row][column] == 2) {
+                    queue.add(new int[] { row, column, 0 });
+                }
+            }
+        }
+    }
+
+    private static List<int[]> getNeighbours(int[][] grid, int row, int column) {
+        final List<int[]> result = new ArrayList<>();
+        for (List<Integer> direction : DIRECTIONS) {
+            final int r = row + direction.get(0), c = column + direction.get(1);
+            if (r >= 0 && r < grid.length && c >= 0 && c < grid[0].length && grid[r][c] == 1) {
+                result.add(new int[] {r, c});
+            }
+        }
+        return result;
     }
 }
