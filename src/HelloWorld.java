@@ -1,51 +1,66 @@
 // T: O(N + E alp(N))
 // S: O(N)
 
+import java.security.cert.Certificate;
+import java.util.LinkedList;
+import java.util.Queue;
+
+
+
 public class HelloWorld {
-    private static final class DisjointSet {
-        private final int[] roots, rank;
+    public static class Node {
+        public int val;
+        public Node left;
+        public Node right;
+        public Node next;
 
-        public DisjointSet(int size) {
-            roots = new int[size];
-            rank = new int[size];
-            for (int i = 0 ; i < size ; i++) {
-                roots[i] = i;
-                rank[i] = 1;
-            }
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
         }
 
-        public int find(int num) {
-            if (num == roots[num]) {
-                return num;
-            }
-            return roots[num] = find(roots[num]);
+        public Node(int _val, Node _left, Node _right, Node _next) {
+            val = _val;
+            left = _left;
+            right = _right;
+            next = _next;
+        }
+    };
+
+    public Node connect(Node root) {
+        if (root == null) {
+            return null;
         }
 
-        public boolean areConnected(int x, int y) {
-            return find(x) == find(y);
+        final Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        queue.add(null);
+        Node current = null;
+
+        while (!queue.isEmpty()) {
+            final Node node = queue.poll();
+            if (node == null) {
+                if (!queue.isEmpty()) {
+                    queue.add(null);
+                    current = null;
+                }
+                continue;
+            }
+
+            addChildrenToQueue(queue, node);
+
+            if (current != null) {
+                current.next = node;
+            }
+            current = node;
         }
 
-        public void union(int x, int y) {
-            final int rootX = find(x), rootY = find(y);
-            if (rootX == rootY) {
-                return;
-            }
-            if (rank[rootX] > rank[rootY]) {
-                roots[rootY] = rootX;
-            } else if (rank[rootX] < rank[rootY]) {
-                roots[rootX] = rootY;
-            } else {
-                roots[rootY] = rootX;
-                rank[rootX]++;
-            }
-        }
+        return root;
     }
 
-    public boolean validPath(int n, int[][] edges, int source, int destination) {
-        final DisjointSet disjointSet = new DisjointSet(n);
-        for (int[] edge : edges) {
-            disjointSet.union(edge[0], edge[1]);
-        }
-        return disjointSet.areConnected(source, destination);
+    private static void addChildrenToQueue(Queue<Node> queue, Node node) {
+        if (node.left != null) queue.add(node.left);
+        if (node.right != null) queue.add(node.right);
     }
 }
