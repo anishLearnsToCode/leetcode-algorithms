@@ -26,21 +26,25 @@ public class MinimumGeneticMutation {
         }
 
         final Queue<Info> queue = new LinkedList<>() {{ add(new Info(startGene, 0)); }};
-        final Map<String, Integer> distances = new HashMap<>();
+        final Set<String> visited = new HashSet<>();
 
         while (!queue.isEmpty()) {
             final Info info = queue.poll();
-            if (distances.getOrDefault(info.mutation, Integer.MAX_VALUE) <= info.steps) {
+            if (visited.contains(info.mutation)) {
                 continue;
             }
-            distances.put(info.mutation, info.steps);
+            visited.add(info.mutation);
+
+            if (endGene.equals(info.mutation)) {
+                return info.steps;
+            }
 
             for (String neighbour : validMutations(genePool, info.mutation)) {
                 queue.add(new Info(neighbour, info.steps + 1));
             }
         }
 
-        return distances.getOrDefault(endGene, -1);
+        return -1;
     }
 
     // T: O(|s|), S: O(|s|)
