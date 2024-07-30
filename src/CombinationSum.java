@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/combination-sum
-// T: O(|candidates| ^ target)
-// S: O(target + candidate ^ 2) // not sure tho --> if anyone has any idea please feel free to contact me
+// M = smallest candidate
+// T: O(|candidates| ^ (target / M))
+// S: O(target / M) // not sure tho --> if anyone has any idea please feel free to contact me
 
 import java.util.ArrayList;
 import java.util.List;
