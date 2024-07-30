@@ -1,7 +1,11 @@
+// https://leetcode.com/problems/maximum-depth-of-n-ary-tree
+// T: O(N)
+// S: O(logN)
+
 import java.util.List;
 
 public class MaximumDepthOfNAryTree {
-    private static class Node {
+    public static class Node {
         public int val;
         public List<Node> children;
 

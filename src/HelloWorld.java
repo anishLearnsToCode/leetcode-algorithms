@@ -1,58 +1,80 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Set;
 
 public class HelloWorld {
-    private record Edge(int vertex, int time) {}
-
-    public int networkDelayTime(int[][] times, int n, int k) {
-        final Map<Integer, Map<Integer, Integer>> graph = createGraph(times);
-        final Map<Integer, Integer> delayTimes = dijkstra(graph, k);
-        if (delayTimes.size() != n) {
-            return -1;
-        }
-        return delayTimes.values().stream().max(Integer::compare).get();
+    // T: O(V + E) S: O(V + E)
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        final Map<Integer, Set<Integer>> graph = createGraph(prerequisites);
+        final int[] inDegree = computeInDegree(numCourses, prerequisites);
+        return orderOfCourses(graph, inDegree);
     }
 
-    // T: O(E), S: O(E)
-    private static Map<Integer, Map<Integer, Integer>> createGraph(int[][] edges) {
-        final Map<Integer, Map<Integer, Integer>> graph = new HashMap<>();
-        for (int[] edge : edges) {
-            final int from = edge[0], to = edge[1], weight = edge[2];
-            final Map<Integer, Integer> neighbours = graph.getOrDefault(from, new HashMap<>());
-            neighbours.put(to, weight);
-            graph.putIfAbsent(from, neighbours);
-        }
-        return graph;
-    }
-
-    // T: O(V + E logV)
-    private static Map<Integer, Integer> dijkstra(Map<Integer, Map<Integer, Integer>> graph, int start) {
-        final Map<Integer, Integer> distances = new HashMap<>();
-        final Queue<Edge> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a.time));
-        queue.add(new Edge(start, 0));
+    // T: O(V + E) S: O(V)
+    private static int[] orderOfCourses(Map<Integer, Set<Integer>> graph, int[] inDegree) {
+        final Queue<Integer> queue = new PriorityQueue<>();
+        final List<Integer> order = new ArrayList<>();
+        addAll0InDegreeToQueue(queue, inDegree);
 
         while (!queue.isEmpty()) {
-            final Edge edge = queue.poll();
-            if (edge.time >= distances.getOrDefault(edge.vertex, Integer.MAX_VALUE)) {
-                continue;
+            final int vertex = queue.poll();
+            order.add(vertex);
+            for (int neighbour : graph.getOrDefault(vertex, new HashSet<>())) {
+                inDegree[neighbour]--;
+                if (inDegree[neighbour] == 0) {
+                    queue.add(neighbour);
+                }
             }
-
-            distances.put(edge.vertex, edge.time);
-
-            for (Map.Entry<Integer, Integer> entry : graph.getOrDefault(edge.vertex, new HashMap<>()).entrySet()) {
-                final int neighbour = entry.getKey(), time = entry.getValue();
-                queue.add(new Edge(neighbour, edge.time + time));
-            }
+            graph.remove(vertex);
         }
 
-        return distances;
+        if (order.size() != inDegree.length) {
+            return new int[] {};
+        }
+        return toArray(order);
     }
 
-    public static void main(String[] args) {
-        int[] b = new int[] {1, 2, 3};
-        int[] a = b;
-        System.out.println(Arrays.toString(a));
-        b = new int[] {5, 6, 7};
-        System.out.println(Arrays.toString(a));
+    private static int[] toArray(List<Integer> list) {
+        final int[] array = new int[list.size()];
+        for (int i = 0 ; i < array.length ; i++) {
+            array[i] = list.get(i);
+        }
+        return array;
+    }
 
+    // T: O(E) S: O(1)
+    private static void addAll0InDegreeToQueue(Queue<Integer> queue, int[] inDegree) {
+        for (int i = 0 ; i < inDegree.length ; i++) {
+            if (inDegree[i] == 0) {
+                queue.add(i);
+            }
+        }
+    }
+
+    // T: O(E) S: O(E)
+    private static int[] computeInDegree(int n, int[][] edges) {
+        final int[] inDegree = new int[n];
+        for (int[] edge : edges) {
+            final int to = edge[0];
+            inDegree[to]++;
+        }
+        return inDegree;
+    }
+
+    // T: O(|E|), S: O(E)
+    private static Map<Integer, Set<Integer>> createGraph(int[][] edges) {
+        final Map<Integer, Set<Integer>> graph = new HashMap<>();
+        for (int[] edge : edges) {
+            final int to = edge[0], from = edge[1];
+            final Set<Integer> set = graph.getOrDefault(from, new HashSet<>());
+            set.add(to);
+            graph.putIfAbsent(from, set);
+        }
+        return graph;
     }
 }
