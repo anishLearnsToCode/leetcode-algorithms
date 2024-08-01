@@ -3,25 +3,19 @@
 // S: O(1)
 
 public class FindPeakElement {
-    public static int findPeakElement(int[] array) {
-        for (int left = 0, right = array.length - 1, middle ; left <= right ; ) {
+    public int findPeakElement(int[] nums) {
+        int left = 0, right = nums.length - 1, middle;
+        while (left <= right) {
             middle = left + (right - left) / 2;
-
-            if (isPeakElement(array, middle)) return middle;
-
-            if (isOnIncreasingSlope(array, middle)) left = middle + 1;
+            if (isPeak(nums, middle)) return middle;
+            else if (middle +  1 < nums.length && nums[middle] < nums[middle + 1]) left = middle + 1;
             else right = middle - 1;
         }
         return -1;
     }
 
-    private static boolean isOnIncreasingSlope(int[] array, int index) {
-        return ((index > 0 && array[index - 1] < array[index]) || index == 0)
-                && ((index + 1 < array.length && array[index] < array[index + 1]) || index == array.length - 1);
-    }
-
-    private static boolean isPeakElement(int[] array, int index) {
-        return ((index > 0 && array[index - 1] < array[index]) || index == 0)
-            && ((index + 1 < array.length && array[index + 1] < array[index]) || index == array.length - 1);
+    private static boolean isPeak(int[] array, int x) {
+        return (x - 1 < 0 || array[x - 1] < array[x])
+                && (x + 1 >= array.length || array[x] > array[x + 1]);
     }
 }
