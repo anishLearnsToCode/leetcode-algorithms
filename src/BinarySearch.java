@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/binary-search
+// T: O(logN)
+// S: O(1)
+
 public class BinarySearch {
     public int search(int[] array, int val) {
         int left = 0, right = array.length - 1, middle;

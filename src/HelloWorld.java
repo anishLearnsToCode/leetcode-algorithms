@@ -1,32 +1,31 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Set;
-
 public class HelloWorld {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        final Set<List<Integer>> result = new HashSet<>();
-        computeSums(candidates, target, result, 0, new ArrayList<>(), 0);
-        return new ArrayList<>(result);
+    public int search(int[] nums, int target) {
+        final int pivotIndex = binarySearchPivotIndex(nums);
+        final int answer = binarySearch(nums, 0, pivotIndex - 1, target);
+        if (answer != -1) {
+            return answer;
+        }
+        return binarySearch(nums, pivotIndex, nums.length - 1, target);
     }
 
-    private static void computeSums(int[] candidates, int target, Set<List<Integer>> result, int currentSum, List<Integer> current, int i) {
-        if (currentSum > target || i >= candidates.length) {
-            return;
+    private static int binarySearchPivotIndex(int[] array) {
+        int left = 0, right = array.length - 1, middle;
+        while (left <= right) {
+            middle = left + (right - left) / 2;
+            if (array[middle] > array[array.length - 1]) left = middle + 1;
+            else right = middle - 1;
         }
-        if (currentSum == target) {
-            result.add(new ArrayList<>(current));
-            return;
-        }
+        return left;
+    }
 
-        computeSums(candidates, target, result, currentSum, current, i + 1);
-        current.add(candidates[i]);
-        computeSums(candidates, target, result, currentSum + candidates[i], current, i);
-        computeSums(candidates, target, result, currentSum + candidates[i], current, i + 1);
-        current.removeLast();
+    private static int binarySearch(int[] array, int start, int end, int x) {
+        int left = start, right = end, middle;
+        while (left <= right) {
+            middle = left + (right - left) / 2;
+            if (array[middle] == x) return middle;
+            else if (array[middle] < x) left = middle + 1;
+            else right = middle - 1;
+        }
+        return -1;
     }
 }
