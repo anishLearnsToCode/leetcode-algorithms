@@ -38,8 +38,4 @@ public class FindKClosestElements {
         }
         return left;
     }
-
-    public static void main(String[] args) {
-        System.out.println(findClosestElements(new int[] {}, 3, 5));
-    }
 }
