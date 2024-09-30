@@ -1,4 +1,4 @@
-public class IsPerfectSquare {
+public class ValidPerfectSquare {
     public static boolean isPerfectSquare(long number) {
         long left = 0, right = number, mid;
         while (left <= right) {
